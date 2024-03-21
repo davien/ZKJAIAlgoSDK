@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZKJAIAlgoSDK_Example' do
+  pod 'ZKJAIAlgoSDK', :path => '../'
+
+  target 'ZKJAIAlgoSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
