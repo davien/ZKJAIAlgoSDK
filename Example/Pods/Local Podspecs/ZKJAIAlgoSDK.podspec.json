@@ -1,6 +1,6 @@
 {
   "name": "ZKJAIAlgoSDK",
-  "version": "1.10.0",
+  "version": "1.12.0",
   "summary": "A short description of ZKJAIAlgoSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/davien/ZKJAIAlgoSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/davien/ZKJAIAlgoSDK.git",
-    "tag": "1.10.0"
+    "tag": "1.12.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -67,6 +67,14 @@
       }
     },
     {
+      "name": "MSMNN",
+      "vendored_frameworks": "Framework/MSMNN.framework"
+    },
+    {
+      "name": "opencv2",
+      "vendored_frameworks": "Framework/opencv2.framework"
+    },
+    {
       "name": "MSLibActionLive",
       "resource_bundles": {
         "LibActionLive": [
@@ -74,10 +82,35 @@
         ]
       },
       "vendored_frameworks": [
-        "Framework/opencv2.framework",
-        "Framework/MSMNN.framework",
         "Framework/LibActionLive.framework"
-      ]
+      ],
+      "dependencies": {
+        "ZKJAIAlgoSDK/MSMNN": [
+
+        ],
+        "ZKJAIAlgoSDK/opencv2": [
+
+        ]
+      }
+    },
+    {
+      "name": "MSLibidcardocr",
+      "resource_bundles": {
+        "libidcardocr": [
+          "Bundle/libidcardocr.bundle"
+        ]
+      },
+      "vendored_frameworks": [
+        "Framework/libidcardocr.framework"
+      ],
+      "dependencies": {
+        "ZKJAIAlgoSDK/MSMNN": [
+
+        ],
+        "ZKJAIAlgoSDK/opencv2": [
+
+        ]
+      }
     },
     {
       "name": "MSFaceKit",
@@ -112,18 +145,11 @@
       "dependencies": {
         "ZKJAIAlgoSDK/OCRCore": [
 
+        ],
+        "ZKJAIAlgoSDK/MSLibidcardocr": [
+
         ]
-      },
-      "resource_bundles": {
-        "libidcardocr": [
-          "Bundle/libidcardocr.bundle"
-        ]
-      },
-      "vendored_frameworks": [
-        "Framework/opencv2.framework",
-        "Framework/MSMNN.framework",
-        "Framework/libidcardocr.framework"
-      ]
+      }
     }
   ]
 }

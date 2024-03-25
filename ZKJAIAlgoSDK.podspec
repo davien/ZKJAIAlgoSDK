@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZKJAIAlgoSDK'
-  s.version          = '1.10.0'
+  s.version          = '1.12.0'
   s.summary          = 'A short description of ZKJAIAlgoSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -95,38 +95,61 @@ TODO: Add long description of the pod here.
     ss.public_header_files = 'Sources/OCRCore/*.h'
     ss.dependency 'ZKJAIAlgoSDK/Core'
   end
+  
+
+  s.subspec 'MSMNN' do |ss|
+    ss.vendored_frameworks = 'Framework/MSMNN.framework'
+  end
+  
+  s.subspec 'opencv2' do |ss|
+    ss.vendored_frameworks = 'Framework/opencv2.framework'
+  end
+  
+  
+  s.subspec 'MSLibActionLive' do |ss|
+    ss.resource_bundles = {
+        'LibActionLive' => ['Bundle/LibActionLive.bundle']
+    }
+    ss.vendored_frameworks = ['Framework/LibActionLive.framework']
+    ss.dependency 'ZKJAIAlgoSDK/MSMNN'
+    ss.dependency 'ZKJAIAlgoSDK/opencv2'
+  end
+  
+  s.subspec 'MSLibidcardocr' do |ss|
+    ss.resource_bundles = {
+          'libidcardocr' => ['Bundle/libidcardocr.bundle']
+    }
+    ss.vendored_frameworks = ['Framework/libidcardocr.framework']
+    ss.dependency 'ZKJAIAlgoSDK/MSMNN'
+    ss.dependency 'ZKJAIAlgoSDK/opencv2'
+  end
 
   s.subspec 'MSFaceKit' do |ss|
     ss.source_files = 'Sources/MSFaceKit/**/*.{h,m,swift}'
     ss.public_header_files = 'Sources/MSFaceKit/*.h'
     ss.dependency 'ZKJAIAlgoSDK/FaceCore'
 #    ss.resources     = ['Bundle/LibActionLive.bundle']
-    ss.resource_bundles = {
-        'LibActionLive' => ['Bundle/LibActionLive.bundle']
-    }
-    ss.vendored_frameworks = ['Framework/opencv2.framework','Framework/MSMNN.framework','Framework/LibActionLive.framework']
+    ss.dependency 'ZKJAIAlgoSDK/MSLibActionLive'
   end
   
   s.subspec 'MSLiveKit' do |ss|
     ss.source_files = 'Sources/MSLiveKit/**/*.{h,m,swift}'
     ss.public_header_files = 'Sources/MSLiveKit/*.h'
     ss.dependency 'ZKJAIAlgoSDK/LiveCore'
-    ss.resources     = ['Bundle/LibActionLive.bundle']
-    ss.resource_bundles = {
-        'libActionLive' => ['Bundle/LibActionLive.bundle']
-    }
-    ss.vendored_frameworks ='Framework/opencv2.framework','Framework/MSMNN.framework','Framework/LibActionLive.framework'
+#    ss.resources     = ['Bundle/LibActionLive.bundle']
+    ss.dependency 'ZKJAIAlgoSDK/MSLibActionLive'
   end
   
   s.subspec 'MSOCRKit' do |ss|
     ss.source_files = 'Sources/MSOCRKit/**/*.{h,m,swift}'
     ss.public_header_files = 'Sources/MSOCRKit/*.h'
     ss.dependency 'ZKJAIAlgoSDK/OCRCore'
+    ss.dependency 'ZKJAIAlgoSDK/MSLibidcardocr'
 #    ss.resources     = ['Bundle/libidcardocr.bundle']
-    ss.resource_bundles = {
-        'libidcardocr' => ['Bundle/libidcardocr.bundle']
-    }
-    ss.vendored_frameworks = ['Framework/opencv2.framework','Framework/MSMNN.framework','Framework/libidcardocr.framework']
+#    ss.resource_bundles = {
+#        'libidcardocr' => ['Bundle/libidcardocr.bundle']
+#    }
+#    ss.vendored_frameworks = ['Framework/opencv2.framework','Framework/MSMNN.framework','Framework/libidcardocr.framework']
   end
   
 end
