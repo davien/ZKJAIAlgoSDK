@@ -1,6 +1,6 @@
 {
   "name": "ZKJAIAlgoSDK",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "summary": "A short description of ZKJAIAlgoSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/davien/ZKJAIAlgoSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/davien/ZKJAIAlgoSDK.git",
-    "tag": "1.0.0"
+    "tag": "1.3.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -111,8 +111,7 @@
         "Framework/opencv2.framework",
         "Framework/MSMNN.framework",
         "Framework/libidcardocr.framework"
-      ],
-      "frameworks": "AssetsLibrary"
+      ]
     }
   ]
 }

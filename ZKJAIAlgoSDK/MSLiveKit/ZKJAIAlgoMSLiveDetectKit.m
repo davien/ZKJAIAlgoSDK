@@ -21,7 +21,7 @@ NSString * const ZKJAIAlgoMSLiveDetectionIdentifierKey = @"ZKJAIAlgoMSLiveDetect
     [ZKJAIAlgoLiveManager registerLiveDetectionAlgorithm:[ZKJAIAlgoMSLiveDetectKit class] identifier:ZKJAIAlgoMSLiveDetectionIdentifierKey];
 }
 
-- (BOOL)initWithConfig:(ZKJAIAlgoFaceConfig *)config {
+- (BOOL)initWithConfig:(ZKJAIAlgoLiveConfig *)config {
     LiveConfig *liveConfig = [[LiveConfig alloc] init];
     //    config.isScreenDet = self.configModel.screenDet;//TODO: 前置不做防翻拍
     liveConfig.isScreenDet = NO;
