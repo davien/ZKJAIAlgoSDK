@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZKJAIAlgoSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.2.0'
   s.summary          = 'A short description of ZKJAIAlgoSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -49,16 +49,19 @@ TODO: Add long description of the pod here.
   s.subspec 'FaceCore' do |ss|
     ss.source_files = 'ZKJAIAlgoSDK/FaceCore/**/*'
     ss.public_header_files = 'ZKJAIAlgoSDK/FaceCore/*.h'
+    ss.dependency 'ZKJAIAlgoSDK/Core'
   end
   
   s.subspec 'LiveCore' do |ss|
     ss.source_files = 'ZKJAIAlgoSDK/LiveCore/**/*'
     ss.public_header_files = 'ZKJAIAlgoSDK/LiveCore/*.h'
+    ss.dependency 'ZKJAIAlgoSDK/Core'
   end
   
   s.subspec 'OCRCore' do |ss|
     ss.source_files = 'ZKJAIAlgoSDK/OCRCore/**/*'
     ss.public_header_files = 'ZKJAIAlgoSDK/OCRCore/*.h'
+    ss.dependency 'ZKJAIAlgoSDK/Core'
   end
 
   s.subspec 'MSFaceKit' do |ss|

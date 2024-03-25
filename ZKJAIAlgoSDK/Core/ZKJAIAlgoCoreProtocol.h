@@ -8,9 +8,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "ZKJAIFaceRecognizeResult.h"
-#import "ZKJAIAlgoFaceConfig.h"
-
 
 NS_ASSUME_NONNULL_BEGIN
 
