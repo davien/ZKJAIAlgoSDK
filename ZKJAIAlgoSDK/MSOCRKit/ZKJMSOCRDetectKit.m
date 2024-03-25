@@ -7,9 +7,7 @@
 
 #import "ZKJMSOCRDetectKit.h"
 
-#import <libidcardocr/IdCardOptCharReg.h>
-#import <libidcardocr/BankCardOptCharReg.h>
-
+#import <libidcardocr/libidcardocr.h>
 
 #import "ZKJAIAlgoOCRManager.h"
 
@@ -26,12 +24,19 @@ NSString * const ZKJAIAlgoMSOCRDetectionIdentifierKey = @"ZKJAIAlgoMSOCRDetectio
     // 获取当前framework的bundle
     NSBundle *frameworkBundle = [NSBundle bundleForClass:self.class];
     // 根据bundle的名字构建路径
-    NSString *bundlePath = [frameworkBundle pathForResource:@"LibActionLive" ofType:@"bundle"];
+    NSString *bundlePath = [frameworkBundle pathForResource:@"libidcardocr" ofType:@"bundle"];
     
-    int statues = [IdCardOptCharReg initWithStrModelRootDir:bundlePath licenseName:config.licenseName];
+    NSString *licenseName = @"msidcard_ocr_ios";
+    if ([config.licenseName isKindOfClass:[NSString class]] && config.licenseName.length > 0 ) {
+        licenseName = config.licenseName;
+    }
+    
+    int statues = [IdCardOptCharReg initWithStrModelRootDir:bundlePath licenseName:licenseName];
     if (statues == 0) {
         NSLog(@"OCR初始化失败");
         return NO;
+    } else {
+        NSLog(@"OCR初始化成功");
     }
                    
     MSIdcardConfigInstance.bAddressCheck = NO;

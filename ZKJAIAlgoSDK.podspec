@@ -44,7 +44,6 @@ TODO: Add long description of the pod here.
   s.subspec 'Core' do |ss|
     ss.source_files = 'ZKJAIAlgoSDK/Core/**/*'
     ss.public_header_files = 'ZKJAIAlgoSDK/Core/*.h'
-    ss.private_header_files = 'ZKJAIAlgoManager'
   end
   
   s.subspec 'FaceCore' do |ss|
@@ -52,16 +51,16 @@ TODO: Add long description of the pod here.
     ss.public_header_files = 'ZKJAIAlgoSDK/FaceCore/*.h'
   end
   
-  s.subspec 'OCRCore' do |ss|
-    ss.source_files = 'ZKJAIAlgoSDK/OCRCore/**/*'
-    ss.public_header_files = 'ZKJAIAlgoSDK/OCRCore/*.h'
-  end
-  
   s.subspec 'LiveCore' do |ss|
     ss.source_files = 'ZKJAIAlgoSDK/LiveCore/**/*'
     ss.public_header_files = 'ZKJAIAlgoSDK/LiveCore/*.h'
   end
   
+  s.subspec 'OCRCore' do |ss|
+    ss.source_files = 'ZKJAIAlgoSDK/OCRCore/**/*'
+    ss.public_header_files = 'ZKJAIAlgoSDK/OCRCore/*.h'
+  end
+
   s.subspec 'MSFaceKit' do |ss|
     ss.source_files = 'ZKJAIAlgoSDK/MSFaceKit/*.{h,m}'
     ss.public_header_files = 'ZKJAIAlgoSDK/MSFaceKit/*.h'
@@ -73,9 +72,9 @@ TODO: Add long description of the pod here.
   s.subspec 'MSLiveKit' do |ss|
     ss.source_files = 'ZKJAIAlgoSDK/MSLiveKit/*.{h,m}'
     ss.public_header_files = 'ZKJAIAlgoSDK/MSLiveKit/*.h'
-    ss.dependency 'ZKJAIAlgoSDK/OCRCore'
-    ss.resources     = ['Bundle/libidcardocr.bundle']
-    ss.vendored_frameworks = ['Framework/opencv2.framework','Framework/MSMNN.framework','Framework/libidcardocr.framework']
+    ss.dependency 'ZKJAIAlgoSDK/LiveCore'
+    ss.resources     = ['Bundle/LibActionLive.bundle']
+    ss.vendored_frameworks ='Framework/opencv2.framework','Framework/MSMNN.framework','Framework/LibActionLive.framework'
   end
   
   s.subspec 'MSOCRKit' do |ss|

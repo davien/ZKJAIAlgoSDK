@@ -13,7 +13,7 @@ PODS:
   - ZKJAIAlgoSDK/MSFaceKit (1.0.0):
     - ZKJAIAlgoSDK/FaceCore
   - ZKJAIAlgoSDK/MSLiveKit (1.0.0):
-    - ZKJAIAlgoSDK/OCRCore
+    - ZKJAIAlgoSDK/LiveCore
   - ZKJAIAlgoSDK/MSOCRKit (1.0.0):
     - ZKJAIAlgoSDK/OCRCore
   - ZKJAIAlgoSDK/OCRCore (1.0.0)
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZKJAIAlgoSDK: d93f8c2421330b1d1c7b351b3cc00c314c4f03ff
+  ZKJAIAlgoSDK: 7a366246f8669c7b97495eed0d494208fae255d6
 
 PODFILE CHECKSUM: c6367d247cb077ddcbfddb554d2f4e7d2a96794c
 

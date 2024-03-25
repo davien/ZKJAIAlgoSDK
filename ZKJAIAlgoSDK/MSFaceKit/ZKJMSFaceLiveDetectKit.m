@@ -31,10 +31,15 @@ NSString * const ZKJAIAlgoMSFaceDetectionIdentifierKey = @"ZKJAIAlgoMSFaceDetect
         NSLog(@"资源路径错误");
         return  ZKJAIFaceInitStatusModelError;
     }
+    
+    NSString *licenseName = @"facex_record_ios";
+    if ([config.licenseName isKindOfClass:[NSString class]] && config.licenseName.length > 0 ) {
+        licenseName = config.licenseName;
+    }
 
     FaceQualityConfig *faceConfig = [[FaceQualityConfig alloc] init];
     faceConfig.faceShelterSwitch = YES;
-    int code = [Facexdet initWithBundleDir:bundlePath licenseName:config.licenseName faceQualityConfig:faceConfig];
+    int code = [Facexdet initWithBundleDir:bundlePath licenseName:licenseName faceQualityConfig:faceConfig];
 
     if (code == 1) {
         NSLog(@"Facex初始化成功");

@@ -18,7 +18,7 @@ NSString * const ZKJAIAlgoMSLiveDetectionIdentifierKey = @"ZKJAIAlgoMSLiveDetect
 @implementation ZKJAIAlgoMSLiveDetectKit
 
 + (void)load {
-    [ZKJAIAlgoLiveManager registerFaceDetectionAlgorithm:[ZKJAIAlgoMSLiveDetectKit class] identifier:ZKJAIAlgoMSLiveDetectionIdentifierKey];
+    [ZKJAIAlgoLiveManager registerLiveDetectionAlgorithm:[ZKJAIAlgoMSLiveDetectKit class] identifier:ZKJAIAlgoMSLiveDetectionIdentifierKey];
 }
 
 - (BOOL)initWithConfig:(ZKJAIAlgoFaceConfig *)config {
@@ -31,9 +31,13 @@ NSString * const ZKJAIAlgoMSLiveDetectionIdentifierKey = @"ZKJAIAlgoMSLiveDetect
     NSBundle *frameworkBundle = [NSBundle bundleForClass:self.class];
     // 根据bundle的名字构建路径
     NSString *bundlePath = [frameworkBundle pathForResource:@"LibActionLive" ofType:@"bundle"];
+    
+    NSString *licenseName = @"facex_live_ios";
+    if ([config.licenseName isKindOfClass:[NSString class]] && config.licenseName.length > 0 ) {
+        licenseName = config.licenseName;
+    }
 
-
-    int facexliveStatues = [Actionlive initWithBundleDir:bundlePath licenseName:config.licenseName liveConfig:liveConfig];
+    int facexliveStatues = [Actionlive initWithBundleDir:bundlePath licenseName:licenseName liveConfig:liveConfig];
     // 初始化结果
     if (facexliveStatues == 1) {
        NSLog(@"活体SDK初始化成功");

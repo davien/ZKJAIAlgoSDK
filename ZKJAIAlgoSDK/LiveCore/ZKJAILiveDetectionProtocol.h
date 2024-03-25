@@ -10,7 +10,7 @@
 
 #import "ZKJAIAlgoCoreProtocol.h"
 
-#import "ZKJAIAlgoFaceConfig.h"
+#import "ZKJAIAlgoLiveConfig.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -26,7 +26,7 @@ extern NSString * const ZKJAIAlgoLiveDetectionTypeKey;
 
 /// 活体检测初始化
 /// - Parameter config: 活体算法配置
-- (BOOL)initWithConfig:(ZKJAIAlgoFaceConfig *)config;
+- (BOOL)initWithConfig:(ZKJAIAlgoLiveConfig *)config;
 
 /// 启动检测线程
 - (int)startProcess;
