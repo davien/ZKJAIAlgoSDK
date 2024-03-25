@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZKJAIAlgoSDK'
-  s.version          = '1.6.0'
+  s.version          = '1.7.0'
   s.summary          = 'A short description of ZKJAIAlgoSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'davien' => 'weiqiang.zhao@msxf.com' }
   s.source           = { :git => 'https://github.com/davien/ZKJAIAlgoSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '9.0'
   s.libraries  = "z", "c++"
   s.static_framework      = true
   
@@ -69,6 +69,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.default_subspecs = 'Core', 'FaceCore', 'LiveCore', 'OCRCore', 'MSFaceKit', 'MSLiveKit', 'MSOCRKit'
+
 
   s.subspec 'Core' do |ss|
     ss.source_files = 'ZKJAIAlgoSDK/Core/**/*'
