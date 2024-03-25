@@ -32,17 +32,32 @@
     {
       "name": "FaceCore",
       "source_files": "ZKJAIAlgoSDK/FaceCore/**/*",
-      "public_header_files": "ZKJAIAlgoSDK/FaceCore/*.h"
+      "public_header_files": "ZKJAIAlgoSDK/FaceCore/*.h",
+      "dependencies": {
+        "ZKJAIAlgoSDK/Core": [
+
+        ]
+      }
     },
     {
       "name": "LiveCore",
       "source_files": "ZKJAIAlgoSDK/LiveCore/**/*",
-      "public_header_files": "ZKJAIAlgoSDK/LiveCore/*.h"
+      "public_header_files": "ZKJAIAlgoSDK/LiveCore/*.h",
+      "dependencies": {
+        "ZKJAIAlgoSDK/Core": [
+
+        ]
+      }
     },
     {
       "name": "OCRCore",
       "source_files": "ZKJAIAlgoSDK/OCRCore/**/*",
-      "public_header_files": "ZKJAIAlgoSDK/OCRCore/*.h"
+      "public_header_files": "ZKJAIAlgoSDK/OCRCore/*.h",
+      "dependencies": {
+        "ZKJAIAlgoSDK/Core": [
+
+        ]
+      }
     },
     {
       "name": "MSFaceKit",
@@ -96,7 +111,8 @@
         "Framework/opencv2.framework",
         "Framework/MSMNN.framework",
         "Framework/libidcardocr.framework"
-      ]
+      ],
+      "frameworks": "AssetsLibrary"
     }
   ]
 }
