@@ -1,6 +1,6 @@
 {
   "name": "ZKJAIAlgoSDK",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "summary": "A short description of ZKJAIAlgoSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/davien/ZKJAIAlgoSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/davien/ZKJAIAlgoSDK.git",
-    "tag": "1.9.0"
+    "tag": "1.10.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -67,14 +67,7 @@
       }
     },
     {
-      "name": "MSFaceKit",
-      "source_files": "Sources/MSFaceKit/**/*.{h,m,swift}",
-      "public_header_files": "Sources/MSFaceKit/*.h",
-      "dependencies": {
-        "ZKJAIAlgoSDK/FaceCore": [
-
-        ]
-      },
+      "name": "MSLibActionLive",
       "resource_bundles": {
         "LibActionLive": [
           "Bundle/LibActionLive.bundle"
@@ -87,27 +80,30 @@
       ]
     },
     {
+      "name": "MSFaceKit",
+      "source_files": "Sources/MSFaceKit/**/*.{h,m,swift}",
+      "public_header_files": "Sources/MSFaceKit/*.h",
+      "dependencies": {
+        "ZKJAIAlgoSDK/FaceCore": [
+
+        ],
+        "ZKJAIAlgoSDK/MSLibActionLive": [
+
+        ]
+      }
+    },
+    {
       "name": "MSLiveKit",
       "source_files": "Sources/MSLiveKit/**/*.{h,m,swift}",
       "public_header_files": "Sources/MSLiveKit/*.h",
       "dependencies": {
         "ZKJAIAlgoSDK/LiveCore": [
 
+        ],
+        "ZKJAIAlgoSDK/MSLibActionLive": [
+
         ]
-      },
-      "resources": [
-        "Bundle/LibActionLive.bundle"
-      ],
-      "resource_bundles": {
-        "libActionLive": [
-          "Bundle/LibActionLive.bundle"
-        ]
-      },
-      "vendored_frameworks": [
-        "Framework/opencv2.framework",
-        "Framework/MSMNN.framework",
-        "Framework/LibActionLive.framework"
-      ]
+      }
     },
     {
       "name": "MSOCRKit",
