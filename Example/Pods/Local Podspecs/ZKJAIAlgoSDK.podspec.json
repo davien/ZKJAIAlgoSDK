@@ -1,0 +1,103 @@
+{
+  "name": "ZKJAIAlgoSDK",
+  "version": "1.0.0",
+  "summary": "A short description of ZKJAIAlgoSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/davien/ZKJAIAlgoSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "davien": "weiqiang.zhao@msxf.com"
+  },
+  "source": {
+    "git": "https://github.com/davien/ZKJAIAlgoSDK.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "static_framework": true,
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "ZKJAIAlgoSDK/Core/**/*",
+      "public_header_files": "ZKJAIAlgoSDK/Core/*.h",
+      "private_header_files": "ZKJAIAlgoManager"
+    },
+    {
+      "name": "FaceCore",
+      "source_files": "ZKJAIAlgoSDK/FaceCore/**/*",
+      "public_header_files": "ZKJAIAlgoSDK/FaceCore/*.h"
+    },
+    {
+      "name": "OCRCore",
+      "source_files": "ZKJAIAlgoSDK/OCRCore/**/*",
+      "public_header_files": "ZKJAIAlgoSDK/OCRCore/*.h"
+    },
+    {
+      "name": "LiveCore",
+      "source_files": "ZKJAIAlgoSDK/LiveCore/**/*",
+      "public_header_files": "ZKJAIAlgoSDK/LiveCore/*.h"
+    },
+    {
+      "name": "MSFaceKit",
+      "source_files": "ZKJAIAlgoSDK/MSFaceKit/*.{h,m}",
+      "public_header_files": "ZKJAIAlgoSDK/MSFaceKit/*.h",
+      "dependencies": {
+        "ZKJAIAlgoSDK/FaceCore": [
+
+        ]
+      },
+      "resources": [
+        "Bundle/LibActionLive.bundle"
+      ],
+      "vendored_frameworks": [
+        "Framework/opencv2.framework",
+        "Framework/MSMNN.framework",
+        "Framework/LibActionLive.framework"
+      ]
+    },
+    {
+      "name": "MSLiveKit",
+      "source_files": "ZKJAIAlgoSDK/MSLiveKit/*.{h,m}",
+      "public_header_files": "ZKJAIAlgoSDK/MSLiveKit/*.h",
+      "dependencies": {
+        "ZKJAIAlgoSDK/OCRCore": [
+
+        ]
+      },
+      "resources": [
+        "Bundle/libidcardocr.bundle"
+      ],
+      "vendored_frameworks": [
+        "Framework/opencv2.framework",
+        "Framework/MSMNN.framework",
+        "Framework/libidcardocr.framework"
+      ]
+    },
+    {
+      "name": "MSOCRKit",
+      "source_files": "ZKJAIAlgoSDK/MSOCRKit/*.{h,m}",
+      "public_header_files": "ZKJAIAlgoSDK/MSOCRKit/*.h",
+      "dependencies": {
+        "ZKJAIAlgoSDK/OCRCore": [
+
+        ]
+      },
+      "resources": [
+        "Bundle/libidcardocr.bundle"
+      ],
+      "vendored_frameworks": [
+        "Framework/opencv2.framework",
+        "Framework/MSMNN.framework",
+        "Framework/libidcardocr.framework"
+      ]
+    }
+  ]
+}
