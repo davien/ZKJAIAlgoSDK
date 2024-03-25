@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZKJAIAlgoSDK'
-  s.version          = '1.8.0'
+  s.version          = '1.9.0'
   s.summary          = 'A short description of ZKJAIAlgoSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '9.0'
   s.libraries  = "z", "c++"
-  s.static_framework      = true
+#  s.static_framework      = true
   
   # 仅支持真机的设置
 #  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64' }
@@ -70,51 +70,51 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  s.default_subspecs = 'Core', 'FaceCore', 'LiveCore', 'OCRCore', 'MSFaceKit', 'MSLiveKit', 'MSOCRKit'
+#  s.default_subspecs = 'Core', 'FaceCore', 'LiveCore', 'OCRCore', 'MSFaceKit', 'MSLiveKit', 'MSOCRKit'
 
 
   s.subspec 'Core' do |ss|
-    ss.source_files = 'ZKJAIAlgoSDK/Core/**/*'
-    ss.public_header_files = 'ZKJAIAlgoSDK/Core/*.h'
+    ss.source_files = 'Sources/Core/**/*.{h,m,swift}'
+    ss.public_header_files = 'Sources/Core/*.h'
   end
   
   s.subspec 'FaceCore' do |ss|
-    ss.source_files = 'ZKJAIAlgoSDK/FaceCore/**/*'
-    ss.public_header_files = 'ZKJAIAlgoSDK/FaceCore/*.h'
+    ss.source_files = 'Sources/FaceCore/**/*.{h,m,swift}'
+    ss.public_header_files = 'Sources/FaceCore/*.h'
     ss.dependency 'ZKJAIAlgoSDK/Core'
   end
   
   s.subspec 'LiveCore' do |ss|
-    ss.source_files = 'ZKJAIAlgoSDK/LiveCore/**/*'
-    ss.public_header_files = 'ZKJAIAlgoSDK/LiveCore/*.h'
+    ss.source_files = 'Sources/LiveCore/**/*.{h,m,swift}'
+    ss.public_header_files = 'Sources/LiveCore/*.h'
     ss.dependency 'ZKJAIAlgoSDK/Core'
   end
   
   s.subspec 'OCRCore' do |ss|
-    ss.source_files = 'ZKJAIAlgoSDK/OCRCore/**/*'
-    ss.public_header_files = 'ZKJAIAlgoSDK/OCRCore/*.h'
+    ss.source_files = 'Sources/OCRCore/**/*.{h,m,swift}'
+    ss.public_header_files = 'Sources/OCRCore/*.h'
     ss.dependency 'ZKJAIAlgoSDK/Core'
   end
 
   s.subspec 'MSFaceKit' do |ss|
-    ss.source_files = 'ZKJAIAlgoSDK/MSFaceKit/*.{h,m}'
-    ss.public_header_files = 'ZKJAIAlgoSDK/MSFaceKit/*.h'
+    ss.source_files = 'Sources/MSFaceKit/**/*.{h,m,swift}'
+    ss.public_header_files = 'Sources/MSFaceKit/*.h'
     ss.dependency 'ZKJAIAlgoSDK/FaceCore'
     ss.resources     = ['Bundle/LibActionLive.bundle']
     ss.vendored_frameworks = ['Framework/opencv2.framework','Framework/MSMNN.framework','Framework/LibActionLive.framework']
   end
   
   s.subspec 'MSLiveKit' do |ss|
-    ss.source_files = 'ZKJAIAlgoSDK/MSLiveKit/*.{h,m}'
-    ss.public_header_files = 'ZKJAIAlgoSDK/MSLiveKit/*.h'
+    ss.source_files = 'Sources/MSLiveKit/**/*.{h,m,swift}'
+    ss.public_header_files = 'Sources/MSLiveKit/*.h'
     ss.dependency 'ZKJAIAlgoSDK/LiveCore'
     ss.resources     = ['Bundle/LibActionLive.bundle']
     ss.vendored_frameworks ='Framework/opencv2.framework','Framework/MSMNN.framework','Framework/LibActionLive.framework'
   end
   
   s.subspec 'MSOCRKit' do |ss|
-    ss.source_files = 'ZKJAIAlgoSDK/MSOCRKit/*.{h,m}'
-    ss.public_header_files = 'ZKJAIAlgoSDK/MSOCRKit/*.h'
+    ss.source_files = 'Sources/MSOCRKit/**/*.{h,m,swift}'
+    ss.public_header_files = 'Sources/MSOCRKit/*.h'
     ss.dependency 'ZKJAIAlgoSDK/OCRCore'
     ss.resources     = ['Bundle/libidcardocr.bundle']
     ss.vendored_frameworks = ['Framework/opencv2.framework','Framework/MSMNN.framework','Framework/libidcardocr.framework']

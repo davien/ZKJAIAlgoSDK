@@ -1,6 +1,6 @@
 {
   "name": "ZKJAIAlgoSDK",
-  "version": "1.6.0",
+  "version": "1.9.0",
   "summary": "A short description of ZKJAIAlgoSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/davien/ZKJAIAlgoSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/davien/ZKJAIAlgoSDK.git",
-    "tag": "1.6.0"
+    "tag": "1.9.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -22,7 +22,6 @@
     "z",
     "c++"
   ],
-  "static_framework": true,
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphoneos*]": "armv7 armv7s",
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "armv7 armv7s arm64"
@@ -31,25 +30,16 @@
     "EXCLUDED_ARCHS[sdk=iphoneos*]": "armv7 armv7s",
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "armv7 armv7s arm64"
   },
-  "default_subspecs": [
-    "Core",
-    "FaceCore",
-    "LiveCore",
-    "OCRCore",
-    "MSFaceKit",
-    "MSLiveKit",
-    "MSOCRKit"
-  ],
   "subspecs": [
     {
       "name": "Core",
-      "source_files": "ZKJAIAlgoSDK/Core/**/*",
-      "public_header_files": "ZKJAIAlgoSDK/Core/*.h"
+      "source_files": "Sources/Core/**/*.{h,m,swift}",
+      "public_header_files": "Sources/Core/*.h"
     },
     {
       "name": "FaceCore",
-      "source_files": "ZKJAIAlgoSDK/FaceCore/**/*",
-      "public_header_files": "ZKJAIAlgoSDK/FaceCore/*.h",
+      "source_files": "Sources/FaceCore/**/*.{h,m,swift}",
+      "public_header_files": "Sources/FaceCore/*.h",
       "dependencies": {
         "ZKJAIAlgoSDK/Core": [
 
@@ -58,8 +48,8 @@
     },
     {
       "name": "LiveCore",
-      "source_files": "ZKJAIAlgoSDK/LiveCore/**/*",
-      "public_header_files": "ZKJAIAlgoSDK/LiveCore/*.h",
+      "source_files": "Sources/LiveCore/**/*.{h,m,swift}",
+      "public_header_files": "Sources/LiveCore/*.h",
       "dependencies": {
         "ZKJAIAlgoSDK/Core": [
 
@@ -68,8 +58,8 @@
     },
     {
       "name": "OCRCore",
-      "source_files": "ZKJAIAlgoSDK/OCRCore/**/*",
-      "public_header_files": "ZKJAIAlgoSDK/OCRCore/*.h",
+      "source_files": "Sources/OCRCore/**/*.{h,m,swift}",
+      "public_header_files": "Sources/OCRCore/*.h",
       "dependencies": {
         "ZKJAIAlgoSDK/Core": [
 
@@ -78,8 +68,8 @@
     },
     {
       "name": "MSFaceKit",
-      "source_files": "ZKJAIAlgoSDK/MSFaceKit/*.{h,m}",
-      "public_header_files": "ZKJAIAlgoSDK/MSFaceKit/*.h",
+      "source_files": "Sources/MSFaceKit/**/*.{h,m,swift}",
+      "public_header_files": "Sources/MSFaceKit/*.h",
       "dependencies": {
         "ZKJAIAlgoSDK/FaceCore": [
 
@@ -96,8 +86,8 @@
     },
     {
       "name": "MSLiveKit",
-      "source_files": "ZKJAIAlgoSDK/MSLiveKit/*.{h,m}",
-      "public_header_files": "ZKJAIAlgoSDK/MSLiveKit/*.h",
+      "source_files": "Sources/MSLiveKit/**/*.{h,m,swift}",
+      "public_header_files": "Sources/MSLiveKit/*.h",
       "dependencies": {
         "ZKJAIAlgoSDK/LiveCore": [
 
@@ -114,8 +104,8 @@
     },
     {
       "name": "MSOCRKit",
-      "source_files": "ZKJAIAlgoSDK/MSOCRKit/*.{h,m}",
-      "public_header_files": "ZKJAIAlgoSDK/MSOCRKit/*.h",
+      "source_files": "Sources/MSOCRKit/**/*.{h,m,swift}",
+      "public_header_files": "Sources/MSOCRKit/*.h",
       "dependencies": {
         "ZKJAIAlgoSDK/OCRCore": [
 
