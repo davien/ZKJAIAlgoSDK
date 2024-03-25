@@ -1,24 +1,24 @@
 PODS:
-  - ZKJAIAlgoSDK (1.4.0):
-    - ZKJAIAlgoSDK/Core (= 1.4.0)
-    - ZKJAIAlgoSDK/FaceCore (= 1.4.0)
-    - ZKJAIAlgoSDK/LiveCore (= 1.4.0)
-    - ZKJAIAlgoSDK/MSFaceKit (= 1.4.0)
-    - ZKJAIAlgoSDK/MSLiveKit (= 1.4.0)
-    - ZKJAIAlgoSDK/MSOCRKit (= 1.4.0)
-    - ZKJAIAlgoSDK/OCRCore (= 1.4.0)
-  - ZKJAIAlgoSDK/Core (1.4.0)
-  - ZKJAIAlgoSDK/FaceCore (1.4.0):
+  - ZKJAIAlgoSDK (1.6.0):
+    - ZKJAIAlgoSDK/Core (= 1.6.0)
+    - ZKJAIAlgoSDK/FaceCore (= 1.6.0)
+    - ZKJAIAlgoSDK/LiveCore (= 1.6.0)
+    - ZKJAIAlgoSDK/MSFaceKit (= 1.6.0)
+    - ZKJAIAlgoSDK/MSLiveKit (= 1.6.0)
+    - ZKJAIAlgoSDK/MSOCRKit (= 1.6.0)
+    - ZKJAIAlgoSDK/OCRCore (= 1.6.0)
+  - ZKJAIAlgoSDK/Core (1.6.0)
+  - ZKJAIAlgoSDK/FaceCore (1.6.0):
     - ZKJAIAlgoSDK/Core
-  - ZKJAIAlgoSDK/LiveCore (1.4.0):
+  - ZKJAIAlgoSDK/LiveCore (1.6.0):
     - ZKJAIAlgoSDK/Core
-  - ZKJAIAlgoSDK/MSFaceKit (1.4.0):
+  - ZKJAIAlgoSDK/MSFaceKit (1.6.0):
     - ZKJAIAlgoSDK/FaceCore
-  - ZKJAIAlgoSDK/MSLiveKit (1.4.0):
+  - ZKJAIAlgoSDK/MSLiveKit (1.6.0):
     - ZKJAIAlgoSDK/LiveCore
-  - ZKJAIAlgoSDK/MSOCRKit (1.4.0):
+  - ZKJAIAlgoSDK/MSOCRKit (1.6.0):
     - ZKJAIAlgoSDK/OCRCore
-  - ZKJAIAlgoSDK/OCRCore (1.4.0):
+  - ZKJAIAlgoSDK/OCRCore (1.6.0):
     - ZKJAIAlgoSDK/Core
 
 DEPENDENCIES:
@@ -29,7 +29,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZKJAIAlgoSDK: 22e30ad9aa7ce67ce3172f907169a09f6e0a9ff4
+  ZKJAIAlgoSDK: 93f816dbf42fe4e82e3ac21dca6347833cfdddab
 
 PODFILE CHECKSUM: 37c1cd704e47a9cfee857cb8dac068757f4a510d
 
