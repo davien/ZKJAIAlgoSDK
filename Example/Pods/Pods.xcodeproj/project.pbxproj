@@ -7,53 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A9D239303C3B053BD3ADE32B8FE61D0 /* ZKJAIAlgoOCRConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CCD27A52047849EAD39BC0883B6C713 /* ZKJAIAlgoOCRConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15F8CC53539F0860397821CB5ACE00E8 /* ZKJMSFaceLiveDetectKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 54931642BA00CAB2A6381A6D8636DC55 /* ZKJMSFaceLiveDetectKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16A942B7193160A9164ADB743156DD34 /* ZKJAIAlgoBackCardResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A042B9D5A3486B6F1688DD97831B00A /* ZKJAIAlgoBackCardResult.m */; };
-		247A45B3948E57A8965C70390A38A5C5 /* ZKJAIAlgoOCRManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 842F19B29AC7C69C67E68F84A690FDB1 /* ZKJAIAlgoOCRManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28694174CC243A8DF170FF4A3490B251 /* ZKJAIAlgoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DEAB77F37529E6DD2F685A05D4A197 /* ZKJAIAlgoManager.m */; };
-		3094A6005B2EFA0E4B89396561508BD3 /* ZKJAIAlgoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 932B83D4EC9C7BB940AD6974A28EE75C /* ZKJAIAlgoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		389D053CB450377EF0BBD74E94233958 /* ZKJAIAlgoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4CC88624E2FF25AE718CDA9C8DCD2 /* ZKJAIAlgoSDK-dummy.m */; };
-		3A772CB81C14208A4BDECFE5F3AD595C /* ZKJAIFaceRecognizeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEB0CD0BF086240B3F9ADFB1FDC08B /* ZKJAIFaceRecognizeResult.m */; };
-		3AA7957EEFD1C3F21805A6DBBCA88F7C /* LibActionLive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFBB50C3B3083CF8FF9CB45D833C059F /* LibActionLive.bundle */; };
-		3EB7B81F2463DBFABD853633C3EEC78C /* ZKJAIAlgoFaceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3654CDAD5612136FD67BD43575189F8D /* ZKJAIAlgoFaceConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4116773641131FEC74FCD9A55799942B /* ZKJAIAlgoLiveConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E62BD0DD3414868C43537BFFEBFE4 /* ZKJAIAlgoLiveConfig.m */; };
-		4A1C8DF294F2E361EC6FE7B83E71E751 /* ZKJMSOCRDetectKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DC24FC209B470D30A449ADABC9DC04DD /* ZKJMSOCRDetectKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AAE97AE6CCD8DF68F17D8333C6D489E /* ZKJAIAlgoFaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 643567A5EF0C215A860569C8802FF603 /* ZKJAIAlgoFaceManager.m */; };
-		612975D130380BCDB79D456D8BB0A3E5 /* ZKJAIAlgoLiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BCDB89B00E30AC0CAA289D04EAD78 /* ZKJAIAlgoLiveManager.m */; };
-		64096206DC287C11E3FBF974F8909A96 /* ZKJAIAlgoCoreProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8DD1633FE2A1620418172DFCB00797 /* ZKJAIAlgoCoreProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		683105964D16BA4CA5AEA735E666B886 /* ZKJAIAlgoIdcardResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F887040B048BB4AAAAD30330A228B72 /* ZKJAIAlgoIdcardResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B04012019C5FBD908D42C31AB7CF596 /* ZKJAIAlgoFaceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 10BE699940E20F4F30746CC98AD605B0 /* ZKJAIAlgoFaceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		018EE9F7E0D6CB906C872B304759AF4C /* libidcardocr.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DC481F5D6FD46466E2AA3F4EFC73D6E /* libidcardocr.bundle */; };
+		02C1B4166D35D253E0675E2F1F0AF0D4 /* ZKJAIAlgoBackCardResult.h in Headers */ = {isa = PBXBuildFile; fileRef = C017FD8609FE790A712163627C8A2997 /* ZKJAIAlgoBackCardResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0455B33F5E8E5C71B687ABE6ACD4CAC6 /* LibActionLive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CEE51E78B86B0F6510C25FFCE93D586 /* LibActionLive.bundle */; };
+		081EC8DF9F21CDFA3359300222F58CE5 /* LibActionLive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CEE51E78B86B0F6510C25FFCE93D586 /* LibActionLive.bundle */; };
+		0C42E4976932731DADCF4AE2947F80D3 /* ZKJAIAlgoLiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0520434DAA27D2768589D9B84329A7E4 /* ZKJAIAlgoLiveManager.m */; };
+		0DD79CD54DF3FA6AFA2FA1716C218159 /* ZKJMSFaceLiveDetectKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FA58E840CC9D83706BBC8960117F0318 /* ZKJMSFaceLiveDetectKit.m */; };
+		101B2F36440682725D5BBAF94D44FA8D /* ZKJAIAlgoOCRManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 869FA414114C2028C457B36C72E48137 /* ZKJAIAlgoOCRManager.m */; };
+		1124D033460873C2AF0FB9ECC4382940 /* ZKJAIAlgoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAECE1BFDA5B9E5003308BEB7848BE72 /* ZKJAIAlgoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		428B454B09EBF32D143AC705076A5F2B /* ZKJAIAlgoIdcardResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 01457B88794DCE7899EF0DC45105AF15 /* ZKJAIAlgoIdcardResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54DF24993AEB9BBAE8463A1F94180A7B /* ZKJAIAlgoOCRConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 57BCE1E803FD2ED51E9B7DFEE37D5638 /* ZKJAIAlgoOCRConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DAFAD518C9E87CE51E9A1333181BA1F /* ZKJAIAlgoFaceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF56AA587F56568C46F1C6CEAC80B47 /* ZKJAIAlgoFaceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EF8D6F65F265F4000C4092B096EC6A9 /* Pods-ZKJAIAlgoSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E211BBD2A21BA7F1CDBDBBDA5CAC89 /* Pods-ZKJAIAlgoSDK_Example-dummy.m */; };
-		6FD68D66A19178DA77DBC3116F8793F8 /* ZKJAIAlgoMSLiveDetectKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 579E67F9F6940C9A0ACF9F27DDB914A3 /* ZKJAIAlgoMSLiveDetectKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75C557571B0D90FD8C6A43627D314A2A /* ZKJAIOCRDetectionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D6FF20D0AE4B2C9EB85524C3C91CD2 /* ZKJAIOCRDetectionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77CD3B084435E6E77200C49A71BB5D10 /* ZKJAIAlgoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07330C3505723E1093B994DD071E3715 /* ZKJAIAlgoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A191968D488312F8717C117B4585CF0 /* ZKJMSOCRDetectKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 684EAC07912077063BCDC1F7E25AA37F /* ZKJMSOCRDetectKit.m */; };
-		7FBAE103D9C1887CED829F63A1AD0138 /* ZKJAIFaceDetectionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = B86B953B878BE2F433919B1544F138C2 /* ZKJAIFaceDetectionProtocol.m */; };
-		8E56E4AB309A47848059AA10269AE4E3 /* ZKJAIFaceDetectionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B2FCF922017568E265A2AC2D2F6249 /* ZKJAIFaceDetectionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91BF8C2A7AC332E44297859E487DE04A /* ZKJAIAlgoMSLiveDetectKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0BC4EAB91077AD0D6064495AA10CF3 /* ZKJAIAlgoMSLiveDetectKit.m */; };
-		9543E722CD803D8B3E73F91D6DA386E4 /* ZKJAIAlgoFaceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F0989A89D90F01AB7C3AD9F873761907 /* ZKJAIAlgoFaceConfig.m */; };
-		A232783E8366504E883A34BD92E73695 /* ZKJAILiveDetectionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D91C21115B6443E3EF3315A0922279 /* ZKJAILiveDetectionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72AF409AF4C10F81748E6168C676DCF1 /* LibActionLive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CEE51E78B86B0F6510C25FFCE93D586 /* LibActionLive.bundle */; };
+		7426346038B0628DA0895DA40BDF4349 /* ZKJAIAlgoBackCardResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E895ADA3BF87C706B14ADA6D036949F5 /* ZKJAIAlgoBackCardResult.m */; };
+		78669D32EDB7392E80967C1540EF7165 /* ZKJAIAlgoSDK-libActionLive in Resources */ = {isa = PBXBuildFile; fileRef = E833154D521BDFEC14EBA0A78052B417 /* ZKJAIAlgoSDK-libActionLive */; };
+		7979BC6D2969565E3CC7A2D83F6B4016 /* ZKJAIAlgoLiveConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB10FB9114164DBCD7AA42D26C9214F /* ZKJAIAlgoLiveConfig.m */; };
+		7A052A81B6166ADA3969615284B9E349 /* ZKJAIAlgoSDK-LibActionLive in Resources */ = {isa = PBXBuildFile; fileRef = 24976BC89AA8ECDF9DBE571ECDFEE02E /* ZKJAIAlgoSDK-LibActionLive */; };
+		7A9B49311564EA4B0D205046F30CC289 /* ZKJAIAlgoFaceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B29B309B6236C922113D10C6D786C1 /* ZKJAIAlgoFaceConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AEDAD48788B3DDF00378E2A5CCDBD54 /* ZKJAIAlgoLiveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 25EDAF5FFB4F2975055040EDF52D6131 /* ZKJAIAlgoLiveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B99409AAFED758020C627C43D3B0239 /* ZKJMSOCRDetectKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C48BB9C2F62A040D9677CAFAD6DE1D62 /* ZKJMSOCRDetectKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F160F85D0C47A32957412D0684550A8 /* ZKJAIFaceDetectionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9674D2333EC66B3A859612EB281F72 /* ZKJAIFaceDetectionProtocol.m */; };
+		800759400C0846187D7163365F93E87E /* ZKJAIFaceRecognizeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 82673ED0EB21E75EAA71F61C2DFAB5D9 /* ZKJAIFaceRecognizeResult.m */; };
+		853F09A679FA4D5ED7A444FB9DB2708A /* ZKJAIAlgoOCRConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A652138D313F826FA2C8B5C6E503792 /* ZKJAIAlgoOCRConfig.m */; };
+		899939F3B5951F9D9746AE88C6942841 /* ZKJAIAlgoIdcardResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D331A8395A1E0FC8500F130DF9C32CE /* ZKJAIAlgoIdcardResult.m */; };
+		8D658B14D1F81D27B64ADE559B2AB523 /* ZKJAIFaceDetectionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F13BFD6265885C5F9386740E51A4FE95 /* ZKJAIFaceDetectionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92EF23E38AC0777B2E5CAA5879DE3B48 /* ZKJAIAlgoMSLiveDetectKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7469EB9515DC132E189C745FFC041988 /* ZKJAIAlgoMSLiveDetectKit.m */; };
+		999ADE255CA83E29722EE390056E2C52 /* ZKJAILiveDetectionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B11285CCB4A4AABD126C45F56A27CB2D /* ZKJAILiveDetectionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2402346C8889FFE28F7EEDFCC15D750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AB7CD6DA341E5E78124B1962205B6F02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AE758B93262565098426F8628FD80B64 /* ZKJAIAlgoLiveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F520DFFAB6D17C2BCFB97A13B72515F /* ZKJAIAlgoLiveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1C64A488DD12BE3E76B55C80B62279A /* ZKJAIAlgoIdcardResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815DD2AED2590112630B3D113680F68 /* ZKJAIAlgoIdcardResult.m */; };
-		B9F8D1B5A967A8E935AB58A4FEA37B99 /* ZKJAIAlgoOCRManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF450C01F7F8A24297AE7048A1A60EF /* ZKJAIAlgoOCRManager.m */; };
+		A33AC2F25502755B84CFF2A306BBC3AB /* ZKJAIAlgoLiveConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = D5AC05877FD36975F3EEEDE10A2EB167 /* ZKJAIAlgoLiveConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABB50599D0716D9CC30204B6FB9215E4 /* ZKJAIOCRDetectionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = B69CE2F218D89D5203FA8A16EB2975E5 /* ZKJAIOCRDetectionProtocol.m */; };
+		B6472704F5C39CEBBEF7B9F009252B87 /* ZKJAIAlgoSDK-libidcardocr in Resources */ = {isa = PBXBuildFile; fileRef = F984D5AF37A000DEF775F25AFE735BA9 /* ZKJAIAlgoSDK-libidcardocr */; };
 		BC268ADD4C57D569A94DDC247AA2C63A /* Pods-ZKJAIAlgoSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DF977AB8942FD9B0263D73F13398AF /* Pods-ZKJAIAlgoSDK_Tests-dummy.m */; };
-		BE9C02AABA37B78BD3CE0FE04096E8CD /* ZKJAILiveDetectionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C939AE2B699606A42C563E5111624493 /* ZKJAILiveDetectionProtocol.m */; };
+		BC6FDCF02EC2F9E6BD61BC8C66FF9C96 /* ZKJAIAlgoMSLiveDetectKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B986B73AEB37146A11B19B1BE755F68 /* ZKJAIAlgoMSLiveDetectKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C40A0DB1D5FB72505567C73778AC9289 /* Pods-ZKJAIAlgoSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A9D965193F0E4D63CA1C3C389E0A25 /* Pods-ZKJAIAlgoSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C68227432BF3D63C47D53625B017A5AD /* ZKJMSFaceLiveDetectKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F1237826832BDBA0A75B9EE3791D8328 /* ZKJMSFaceLiveDetectKit.m */; };
-		CC9D00060835F0C0102AD51C9BE2BF8F /* libidcardocr.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23DBC9EC9EA9685D595F3AB5A0E7BCEC /* libidcardocr.bundle */; };
-		D3842A805A5D92E44DDF9A266A5055DF /* ZKJAIAlgoLiveConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 66AAEBCE87FAA4C7CB7AA3D60CDCD54C /* ZKJAIAlgoLiveConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4B82AB5BDC7BA06BEE786DC966FF816 /* ZKJAIFaceRecognizeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = AC505DEF940091A7ED19EB841931D4C7 /* ZKJAIFaceRecognizeResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4E59285F735B38F6C51EB434C0D1799 /* ZKJAIAlgoOCRConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D170A97F2D3C954E6BB8257B68CD22B /* ZKJAIAlgoOCRConfig.m */; };
-		E35E26BEFE2353FCB6A683429A70820F /* ZKJAIOCRDetectionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E3D72519A8CD7CD633ED73BC41E30A /* ZKJAIOCRDetectionProtocol.m */; };
+		C8A55AB82128B66ED42EC1ECC2151FE3 /* ZKJAIAlgoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD954F775D7361AE6CF28AEF87CB9427 /* ZKJAIAlgoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA93B30BF15EA126E43C46B0BCDA05E /* ZKJAILiveDetectionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF1FAC1B94A44539C6FE69D40AE8EAD /* ZKJAILiveDetectionProtocol.m */; };
+		CE347B138419D518567A0E6E3931C8B5 /* ZKJAIAlgoOCRManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EBEC0590F31B19428596AEC47D822906 /* ZKJAIAlgoOCRManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6B8C06713E0947EA0EAB0DDB1FB1884 /* ZKJAIAlgoCoreProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FECDA6B88FD691AFBB8D4FDD64ED66B /* ZKJAIAlgoCoreProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAF27238B6C20F88294ECDADFBC21266 /* ZKJMSOCRDetectKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF920113620853F99E7C955E6F257C8 /* ZKJMSOCRDetectKit.m */; };
+		DD3651A524223C23B00DB839DB72C49B /* ZKJAIOCRDetectionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7981C240423FBF10F5575B1B9EA502CD /* ZKJAIOCRDetectionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC3A1265335EF9C560945248B0D3775 /* ZKJAIFaceRecognizeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = DF44C39A79937991F93448B696B797C4 /* ZKJAIFaceRecognizeResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E13881E5E6844D053B288C35F256C647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E310FF404A7BC02A157690B3B3D3A1C4 /* ZKJAIAlgoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8124085C55DF580C7BE2C6354A21B4D5 /* ZKJAIAlgoManager.m */; };
 		E8E38E1D89DE691DFD0ABC06B0EAFF98 /* Pods-ZKJAIAlgoSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CA4F0B2F4074832D81E6B1ABB0DBEA /* Pods-ZKJAIAlgoSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0A4F0AFEA2E619B7FF02B479D640FB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FFBB4A526BE311D5F0455CE7375185A1 /* ZKJAIAlgoBackCardResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4B6DEAFCA1D1F852EEE103393A14F2 /* ZKJAIAlgoBackCardResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16A4425DD5E9D463F8568C0D13BACCB /* ZKJAIAlgoFaceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F7B0446DBD0756B925658AE6361396 /* ZKJAIAlgoFaceConfig.m */; };
+		F8D1B1F5166A7A3E14374A1FBF935E17 /* ZKJAIAlgoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC3989D15D5404E8D58BAC2629D80F3 /* ZKJAIAlgoSDK-dummy.m */; };
+		F8FC12B45764DE2246F2C2900B3260E2 /* ZKJAIAlgoFaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C485B75CBBEF490418ADE856B5A97777 /* ZKJAIAlgoFaceManager.m */; };
+		F9AA30E696D9F01A7B9EB4765BD2D8FA /* ZKJMSFaceLiveDetectKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A46463C89D516D3F8B49C56AADBAE161 /* ZKJMSFaceLiveDetectKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1134D4720095DBF54F7A586CD1848063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57315DFFE1E2313FE907BF77010A79F8;
+			remoteInfo = "ZKJAIAlgoSDK-LibActionLive";
+		};
 		87F1ED449DF8D37EEB6AEF7C820EFE31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -61,103 +73,144 @@
 			remoteGlobalIDString = 3A78BCA96F8F1B52404A31870D89E038;
 			remoteInfo = ZKJAIAlgoSDK;
 		};
-		E2549430A1E794015FCB4C74E1783489 /* PBXContainerItemProxy */ = {
+		B2BE6EC305791CFF531CB158B8B80312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23EE3216A947B22E39E97889AB3958DF;
+			remoteInfo = "ZKJAIAlgoSDK-libActionLive";
+		};
+		CB95805FF0EE7CF2B0F403554C6F711F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AF3A98C73E137346279B34FF3EC2966D;
 			remoteInfo = "Pods-ZKJAIAlgoSDK_Example";
 		};
+		DB798B223DE960F28A8ABD06DFA55638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A18809AD9346894B153F128FFCEDFE;
+			remoteInfo = "ZKJAIAlgoSDK-libidcardocr";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07330C3505723E1093B994DD071E3715 /* ZKJAIAlgoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKJAIAlgoSDK-umbrella.h"; sourceTree = "<group>"; };
-		0A042B9D5A3486B6F1688DD97831B00A /* ZKJAIAlgoBackCardResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoBackCardResult.m; path = Sources/OCRCore/ZKJAIAlgoBackCardResult.m; sourceTree = "<group>"; };
-		0A5E62BD0DD3414868C43537BFFEBFE4 /* ZKJAIAlgoLiveConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoLiveConfig.m; path = Sources/LiveCore/ZKJAIAlgoLiveConfig.m; sourceTree = "<group>"; };
-		10BE699940E20F4F30746CC98AD605B0 /* ZKJAIAlgoFaceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoFaceManager.h; path = Sources/FaceCore/ZKJAIAlgoFaceManager.h; sourceTree = "<group>"; };
-		124A48F4D2EB9E9BCB5E89012F400F20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		01457B88794DCE7899EF0DC45105AF15 /* ZKJAIAlgoIdcardResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoIdcardResult.h; path = Sources/OCRCore/ZKJAIAlgoIdcardResult.h; sourceTree = "<group>"; };
+		0520434DAA27D2768589D9B84329A7E4 /* ZKJAIAlgoLiveManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoLiveManager.m; path = Sources/LiveCore/ZKJAIAlgoLiveManager.m; sourceTree = "<group>"; };
+		085CFDB7DE37669AD75498153AED80CC /* ZKJAIAlgoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKJAIAlgoSDK.debug.xcconfig; sourceTree = "<group>"; };
+		09D7C40ADB78FD211F5375389384B77B /* MSMNN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MSMNN.framework; path = Framework/MSMNN.framework; sourceTree = "<group>"; };
 		14DF977AB8942FD9B0263D73F13398AF /* Pods-ZKJAIAlgoSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZKJAIAlgoSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		16D91C21115B6443E3EF3315A0922279 /* ZKJAILiveDetectionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAILiveDetectionProtocol.h; path = Sources/LiveCore/ZKJAILiveDetectionProtocol.h; sourceTree = "<group>"; };
-		1815DD2AED2590112630B3D113680F68 /* ZKJAIAlgoIdcardResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoIdcardResult.m; path = Sources/OCRCore/ZKJAIAlgoIdcardResult.m; sourceTree = "<group>"; };
-		1A142333F404F0D2F64DFF6543FE293E /* ZKJAIAlgoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZKJAIAlgoSDK-Info.plist"; sourceTree = "<group>"; };
-		1D170A97F2D3C954E6BB8257B68CD22B /* ZKJAIAlgoOCRConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoOCRConfig.m; path = Sources/OCRCore/ZKJAIAlgoOCRConfig.m; sourceTree = "<group>"; };
 		1F27660D0C1D467D5A91DA8CF23E265E /* Pods-ZKJAIAlgoSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZKJAIAlgoSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		20E211BBD2A21BA7F1CDBDBBDA5CAC89 /* Pods-ZKJAIAlgoSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZKJAIAlgoSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		21A9D965193F0E4D63CA1C3C389E0A25 /* Pods-ZKJAIAlgoSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZKJAIAlgoSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		23DBC9EC9EA9685D595F3AB5A0E7BCEC /* libidcardocr.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = libidcardocr.bundle; path = Bundle/libidcardocr.bundle; sourceTree = "<group>"; };
-		26FF98F1222143834D781785915EF7ED /* MSMNN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MSMNN.framework; path = Framework/MSMNN.framework; sourceTree = "<group>"; };
-		2CCEB0CD0BF086240B3F9ADFB1FDC08B /* ZKJAIFaceRecognizeResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIFaceRecognizeResult.m; path = Sources/FaceCore/ZKJAIFaceRecognizeResult.m; sourceTree = "<group>"; };
+		24976BC89AA8ECDF9DBE571ECDFEE02E /* ZKJAIAlgoSDK-LibActionLive */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ZKJAIAlgoSDK-LibActionLive"; path = LibActionLive.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EDAF5FFB4F2975055040EDF52D6131 /* ZKJAIAlgoLiveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoLiveManager.h; path = Sources/LiveCore/ZKJAIAlgoLiveManager.h; sourceTree = "<group>"; };
+		2D331A8395A1E0FC8500F130DF9C32CE /* ZKJAIAlgoIdcardResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoIdcardResult.m; path = Sources/OCRCore/ZKJAIAlgoIdcardResult.m; sourceTree = "<group>"; };
 		2DC0D5850EA1A33156D3DB85A4192C62 /* Pods-ZKJAIAlgoSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKJAIAlgoSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		2F520DFFAB6D17C2BCFB97A13B72515F /* ZKJAIAlgoLiveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoLiveManager.h; path = Sources/LiveCore/ZKJAIAlgoLiveManager.h; sourceTree = "<group>"; };
-		3654CDAD5612136FD67BD43575189F8D /* ZKJAIAlgoFaceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoFaceConfig.h; path = Sources/FaceCore/ZKJAIAlgoFaceConfig.h; sourceTree = "<group>"; };
 		36CA4F0B2F4074832D81E6B1ABB0DBEA /* Pods-ZKJAIAlgoSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZKJAIAlgoSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3F3BCDB89B00E30AC0CAA289D04EAD78 /* ZKJAIAlgoLiveManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoLiveManager.m; path = Sources/LiveCore/ZKJAIAlgoLiveManager.m; sourceTree = "<group>"; };
-		44D6FF20D0AE4B2C9EB85524C3C91CD2 /* ZKJAIOCRDetectionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIOCRDetectionProtocol.h; path = Sources/OCRCore/ZKJAIOCRDetectionProtocol.h; sourceTree = "<group>"; };
 		457C63C590CD2AEF575504B601E9C474 /* Pods-ZKJAIAlgoSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKJAIAlgoSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		479274BC0634B186CEA7677A380B4E3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		48A55478EBF278887F7062EB04178C2C /* Pods-ZKJAIAlgoSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKJAIAlgoSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4B4B6DEAFCA1D1F852EEE103393A14F2 /* ZKJAIAlgoBackCardResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoBackCardResult.h; path = Sources/OCRCore/ZKJAIAlgoBackCardResult.h; sourceTree = "<group>"; };
+		49C2D1BF05CE807734595A1A9C77316D /* ZKJAIAlgoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKJAIAlgoSDK.release.xcconfig; sourceTree = "<group>"; };
+		4DE89CF454731764F7C159C680D5249A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4FECDA6B88FD691AFBB8D4FDD64ED66B /* ZKJAIAlgoCoreProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoCoreProtocol.h; path = Sources/Core/ZKJAIAlgoCoreProtocol.h; sourceTree = "<group>"; };
 		544C961960E5399DA25145339019C94F /* Pods-ZKJAIAlgoSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZKJAIAlgoSDK_Tests"; path = Pods_ZKJAIAlgoSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54931642BA00CAB2A6381A6D8636DC55 /* ZKJMSFaceLiveDetectKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJMSFaceLiveDetectKit.h; path = Sources/MSFaceKit/ZKJMSFaceLiveDetectKit.h; sourceTree = "<group>"; };
-		579E67F9F6940C9A0ACF9F27DDB914A3 /* ZKJAIAlgoMSLiveDetectKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoMSLiveDetectKit.h; path = Sources/MSLiveKit/ZKJAIAlgoMSLiveDetectKit.h; sourceTree = "<group>"; };
-		5AF450C01F7F8A24297AE7048A1A60EF /* ZKJAIAlgoOCRManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoOCRManager.m; path = Sources/OCRCore/ZKJAIAlgoOCRManager.m; sourceTree = "<group>"; };
-		5C8DD1633FE2A1620418172DFCB00797 /* ZKJAIAlgoCoreProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoCoreProtocol.h; path = Sources/Core/ZKJAIAlgoCoreProtocol.h; sourceTree = "<group>"; };
-		643567A5EF0C215A860569C8802FF603 /* ZKJAIAlgoFaceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoFaceManager.m; path = Sources/FaceCore/ZKJAIAlgoFaceManager.m; sourceTree = "<group>"; };
-		66AAEBCE87FAA4C7CB7AA3D60CDCD54C /* ZKJAIAlgoLiveConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoLiveConfig.h; path = Sources/LiveCore/ZKJAIAlgoLiveConfig.h; sourceTree = "<group>"; };
-		684EAC07912077063BCDC1F7E25AA37F /* ZKJMSOCRDetectKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJMSOCRDetectKit.m; path = Sources/MSOCRKit/ZKJMSOCRDetectKit.m; sourceTree = "<group>"; };
-		6895DD0A1FD396197A37A6AC269F6126 /* libidcardocr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libidcardocr.framework; path = Framework/libidcardocr.framework; sourceTree = "<group>"; };
-		6B534D346F9F4AB359A76F65772BE4DD /* ZKJAIAlgoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKJAIAlgoSDK-prefix.pch"; sourceTree = "<group>"; };
+		551070D9F1B8FC87DDB5336E8C9A696C /* LibActionLive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LibActionLive.framework; path = Framework/LibActionLive.framework; sourceTree = "<group>"; };
+		57BCE1E803FD2ED51E9B7DFEE37D5638 /* ZKJAIAlgoOCRConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoOCRConfig.h; path = Sources/OCRCore/ZKJAIAlgoOCRConfig.h; sourceTree = "<group>"; };
+		5E49FEB5D15A835DD6C2A5EE95924514 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = Framework/opencv2.framework; sourceTree = "<group>"; };
+		65EDCE49F8CC6E3B4F5655F7C8A762E8 /* ZKJAIAlgoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZKJAIAlgoSDK-Info.plist"; sourceTree = "<group>"; };
+		6A652138D313F826FA2C8B5C6E503792 /* ZKJAIAlgoOCRConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoOCRConfig.m; path = Sources/OCRCore/ZKJAIAlgoOCRConfig.m; sourceTree = "<group>"; };
 		6C47B36B7F2213B13754DD47337C60C1 /* Pods-ZKJAIAlgoSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKJAIAlgoSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6E9C0F6A2186EE61434574C672A81794 /* Pods-ZKJAIAlgoSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZKJAIAlgoSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F887040B048BB4AAAAD30330A228B72 /* ZKJAIAlgoIdcardResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoIdcardResult.h; path = Sources/OCRCore/ZKJAIAlgoIdcardResult.h; sourceTree = "<group>"; };
 		6FFB1F1FAC65B63FBC3AE9FDE5C256F8 /* Pods-ZKJAIAlgoSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZKJAIAlgoSDK_Example.modulemap"; sourceTree = "<group>"; };
-		723A3D85E22FDA3C9542D7CD622BA25A /* ZKJAIAlgoSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZKJAIAlgoSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75A4CC88624E2FF25AE718CDA9C8DCD2 /* ZKJAIAlgoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKJAIAlgoSDK-dummy.m"; sourceTree = "<group>"; };
-		7CCD27A52047849EAD39BC0883B6C713 /* ZKJAIAlgoOCRConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoOCRConfig.h; path = Sources/OCRCore/ZKJAIAlgoOCRConfig.h; sourceTree = "<group>"; };
-		82F072CB25EBE6C064CAA4606DB844AB /* ZKJAIAlgoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZKJAIAlgoSDK.modulemap; sourceTree = "<group>"; };
+		7469EB9515DC132E189C745FFC041988 /* ZKJAIAlgoMSLiveDetectKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoMSLiveDetectKit.m; path = Sources/MSLiveKit/ZKJAIAlgoMSLiveDetectKit.m; sourceTree = "<group>"; };
+		7981C240423FBF10F5575B1B9EA502CD /* ZKJAIOCRDetectionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIOCRDetectionProtocol.h; path = Sources/OCRCore/ZKJAIOCRDetectionProtocol.h; sourceTree = "<group>"; };
+		7B986B73AEB37146A11B19B1BE755F68 /* ZKJAIAlgoMSLiveDetectKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoMSLiveDetectKit.h; path = Sources/MSLiveKit/ZKJAIAlgoMSLiveDetectKit.h; sourceTree = "<group>"; };
+		7E379E191EC07B958FEF2A113A07153C /* ResourceBundle-libidcardocr-ZKJAIAlgoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-libidcardocr-ZKJAIAlgoSDK-Info.plist"; sourceTree = "<group>"; };
+		7EF56AA587F56568C46F1C6CEAC80B47 /* ZKJAIAlgoFaceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoFaceManager.h; path = Sources/FaceCore/ZKJAIAlgoFaceManager.h; sourceTree = "<group>"; };
+		8124085C55DF580C7BE2C6354A21B4D5 /* ZKJAIAlgoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoManager.m; path = Sources/Core/ZKJAIAlgoManager.m; sourceTree = "<group>"; };
+		82673ED0EB21E75EAA71F61C2DFAB5D9 /* ZKJAIFaceRecognizeResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIFaceRecognizeResult.m; path = Sources/FaceCore/ZKJAIFaceRecognizeResult.m; sourceTree = "<group>"; };
 		838E857C52DC8F38DB60ACA27F6643AD /* Pods-ZKJAIAlgoSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKJAIAlgoSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		842F19B29AC7C69C67E68F84A690FDB1 /* ZKJAIAlgoOCRManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoOCRManager.h; path = Sources/OCRCore/ZKJAIAlgoOCRManager.h; sourceTree = "<group>"; };
+		869FA414114C2028C457B36C72E48137 /* ZKJAIAlgoOCRManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoOCRManager.m; path = Sources/OCRCore/ZKJAIAlgoOCRManager.m; sourceTree = "<group>"; };
 		8ACB0C6BB1C1509B74E69C5EC7D832E0 /* Pods-ZKJAIAlgoSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKJAIAlgoSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8E0BC4EAB91077AD0D6064495AA10CF3 /* ZKJAIAlgoMSLiveDetectKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoMSLiveDetectKit.m; path = Sources/MSLiveKit/ZKJAIAlgoMSLiveDetectKit.m; sourceTree = "<group>"; };
-		932B83D4EC9C7BB940AD6974A28EE75C /* ZKJAIAlgoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoManager.h; path = Sources/Core/ZKJAIAlgoManager.h; sourceTree = "<group>"; };
-		934C30928CC34FA7AB74FF75B01DEA27 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = Framework/opencv2.framework; sourceTree = "<group>"; };
+		8AF920113620853F99E7C955E6F257C8 /* ZKJMSOCRDetectKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJMSOCRDetectKit.m; path = Sources/MSOCRKit/ZKJMSOCRDetectKit.m; sourceTree = "<group>"; };
+		8BB10FB9114164DBCD7AA42D26C9214F /* ZKJAIAlgoLiveConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoLiveConfig.m; path = Sources/LiveCore/ZKJAIAlgoLiveConfig.m; sourceTree = "<group>"; };
+		8F9674D2333EC66B3A859612EB281F72 /* ZKJAIFaceDetectionProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIFaceDetectionProtocol.m; path = Sources/FaceCore/ZKJAIFaceDetectionProtocol.m; sourceTree = "<group>"; };
+		95416BE7130EFECF3C69A4D1040DAD44 /* ZKJAIAlgoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKJAIAlgoSDK-prefix.pch"; sourceTree = "<group>"; };
+		9CEE51E78B86B0F6510C25FFCE93D586 /* LibActionLive.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LibActionLive.bundle; path = Bundle/LibActionLive.bundle; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6DEAB77F37529E6DD2F685A05D4A197 /* ZKJAIAlgoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoManager.m; path = Sources/Core/ZKJAIAlgoManager.m; sourceTree = "<group>"; };
-		AC505DEF940091A7ED19EB841931D4C7 /* ZKJAIFaceRecognizeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIFaceRecognizeResult.h; path = Sources/FaceCore/ZKJAIFaceRecognizeResult.h; sourceTree = "<group>"; };
-		B4B2FCF922017568E265A2AC2D2F6249 /* ZKJAIFaceDetectionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIFaceDetectionProtocol.h; path = Sources/FaceCore/ZKJAIFaceDetectionProtocol.h; sourceTree = "<group>"; };
-		B86B953B878BE2F433919B1544F138C2 /* ZKJAIFaceDetectionProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIFaceDetectionProtocol.m; path = Sources/FaceCore/ZKJAIFaceDetectionProtocol.m; sourceTree = "<group>"; };
-		B898AE3659FAD360F6306609D7B7BFF6 /* ZKJAIAlgoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKJAIAlgoSDK.release.xcconfig; sourceTree = "<group>"; };
-		C35FF01031B5D15AD0E1B1DBA9C7DD1E /* ZKJAIAlgoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKJAIAlgoSDK.debug.xcconfig; sourceTree = "<group>"; };
-		C939AE2B699606A42C563E5111624493 /* ZKJAILiveDetectionProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAILiveDetectionProtocol.m; path = Sources/LiveCore/ZKJAILiveDetectionProtocol.m; sourceTree = "<group>"; };
+		9DC481F5D6FD46466E2AA3F4EFC73D6E /* libidcardocr.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = libidcardocr.bundle; path = Bundle/libidcardocr.bundle; sourceTree = "<group>"; };
+		A46463C89D516D3F8B49C56AADBAE161 /* ZKJMSFaceLiveDetectKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJMSFaceLiveDetectKit.h; path = Sources/MSFaceKit/ZKJMSFaceLiveDetectKit.h; sourceTree = "<group>"; };
+		ADBCEB4E1D27039868681A471A44C7E6 /* ZKJAIAlgoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZKJAIAlgoSDK.modulemap; sourceTree = "<group>"; };
+		AFBD797AD0AC32FB0739C9BC5B5E515C /* libidcardocr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libidcardocr.framework; path = Framework/libidcardocr.framework; sourceTree = "<group>"; };
+		B11285CCB4A4AABD126C45F56A27CB2D /* ZKJAILiveDetectionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAILiveDetectionProtocol.h; path = Sources/LiveCore/ZKJAILiveDetectionProtocol.h; sourceTree = "<group>"; };
+		B69CE2F218D89D5203FA8A16EB2975E5 /* ZKJAIOCRDetectionProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIOCRDetectionProtocol.m; path = Sources/OCRCore/ZKJAIOCRDetectionProtocol.m; sourceTree = "<group>"; };
+		B7F7B0446DBD0756B925658AE6361396 /* ZKJAIAlgoFaceConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoFaceConfig.m; path = Sources/FaceCore/ZKJAIAlgoFaceConfig.m; sourceTree = "<group>"; };
+		BFE386C3CEC8D132336FB681C1FFC489 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C017FD8609FE790A712163627C8A2997 /* ZKJAIAlgoBackCardResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoBackCardResult.h; path = Sources/OCRCore/ZKJAIAlgoBackCardResult.h; sourceTree = "<group>"; };
+		C485B75CBBEF490418ADE856B5A97777 /* ZKJAIAlgoFaceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoFaceManager.m; path = Sources/FaceCore/ZKJAIAlgoFaceManager.m; sourceTree = "<group>"; };
+		C48BB9C2F62A040D9677CAFAD6DE1D62 /* ZKJMSOCRDetectKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJMSOCRDetectKit.h; path = Sources/MSOCRKit/ZKJMSOCRDetectKit.h; sourceTree = "<group>"; };
 		CB607582B500C3180DC93D7B8A535C75 /* Pods-ZKJAIAlgoSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKJAIAlgoSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		D63B9B13175EA8322E3F5E4406AA87E1 /* LibActionLive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LibActionLive.framework; path = Framework/LibActionLive.framework; sourceTree = "<group>"; };
+		CBF1FAC1B94A44539C6FE69D40AE8EAD /* ZKJAILiveDetectionProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAILiveDetectionProtocol.m; path = Sources/LiveCore/ZKJAILiveDetectionProtocol.m; sourceTree = "<group>"; };
+		D3A5DD0C1CD5BE5C467B9AD776651652 /* ResourceBundle-libActionLive-ZKJAIAlgoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-libActionLive-ZKJAIAlgoSDK-Info.plist"; sourceTree = "<group>"; };
+		D5AC05877FD36975F3EEEDE10A2EB167 /* ZKJAIAlgoLiveConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoLiveConfig.h; path = Sources/LiveCore/ZKJAIAlgoLiveConfig.h; sourceTree = "<group>"; };
 		D6518587D1B4C3BE7DA699AA2F69696E /* Pods-ZKJAIAlgoSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZKJAIAlgoSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6D349CCFD405625CAB9C92877AADA7D /* Pods-ZKJAIAlgoSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKJAIAlgoSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DC24FC209B470D30A449ADABC9DC04DD /* ZKJMSOCRDetectKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJMSOCRDetectKit.h; path = Sources/MSOCRKit/ZKJMSOCRDetectKit.h; sourceTree = "<group>"; };
-		DFBB50C3B3083CF8FF9CB45D833C059F /* LibActionLive.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LibActionLive.bundle; path = Bundle/LibActionLive.bundle; sourceTree = "<group>"; };
+		DAECE1BFDA5B9E5003308BEB7848BE72 /* ZKJAIAlgoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKJAIAlgoSDK-umbrella.h"; sourceTree = "<group>"; };
+		DBC3989D15D5404E8D58BAC2629D80F3 /* ZKJAIAlgoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKJAIAlgoSDK-dummy.m"; sourceTree = "<group>"; };
+		DD954F775D7361AE6CF28AEF87CB9427 /* ZKJAIAlgoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoManager.h; path = Sources/Core/ZKJAIAlgoManager.h; sourceTree = "<group>"; };
+		DF44C39A79937991F93448B696B797C4 /* ZKJAIFaceRecognizeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIFaceRecognizeResult.h; path = Sources/FaceCore/ZKJAIFaceRecognizeResult.h; sourceTree = "<group>"; };
+		DF94CAD0D97B3F5CFEB28B22BE721669 /* ZKJAIAlgoSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZKJAIAlgoSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E205F579F815911CE9EF02C60B7D39A9 /* Pods-ZKJAIAlgoSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZKJAIAlgoSDK_Example"; path = Pods_ZKJAIAlgoSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6E3D72519A8CD7CD633ED73BC41E30A /* ZKJAIOCRDetectionProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIOCRDetectionProtocol.m; path = Sources/OCRCore/ZKJAIOCRDetectionProtocol.m; sourceTree = "<group>"; };
+		E833154D521BDFEC14EBA0A78052B417 /* ZKJAIAlgoSDK-libActionLive */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ZKJAIAlgoSDK-libActionLive"; path = libActionLive.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E895ADA3BF87C706B14ADA6D036949F5 /* ZKJAIAlgoBackCardResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoBackCardResult.m; path = Sources/OCRCore/ZKJAIAlgoBackCardResult.m; sourceTree = "<group>"; };
+		EBEC0590F31B19428596AEC47D822906 /* ZKJAIAlgoOCRManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoOCRManager.h; path = Sources/OCRCore/ZKJAIAlgoOCRManager.h; sourceTree = "<group>"; };
 		EC46F282FC021E14640219B4F1154789 /* ZKJAIAlgoSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZKJAIAlgoSDK; path = ZKJAIAlgoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE89D0E366B722DD234A7A0FE24380F4 /* Pods-ZKJAIAlgoSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKJAIAlgoSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F0989A89D90F01AB7C3AD9F873761907 /* ZKJAIAlgoFaceConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJAIAlgoFaceConfig.m; path = Sources/FaceCore/ZKJAIAlgoFaceConfig.m; sourceTree = "<group>"; };
-		F1237826832BDBA0A75B9EE3791D8328 /* ZKJMSFaceLiveDetectKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJMSFaceLiveDetectKit.m; path = Sources/MSFaceKit/ZKJMSFaceLiveDetectKit.m; sourceTree = "<group>"; };
+		F13BFD6265885C5F9386740E51A4FE95 /* ZKJAIFaceDetectionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIFaceDetectionProtocol.h; path = Sources/FaceCore/ZKJAIFaceDetectionProtocol.h; sourceTree = "<group>"; };
+		F2D21E7651A2CA18FDC956463ED7C7B1 /* ResourceBundle-LibActionLive-ZKJAIAlgoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LibActionLive-ZKJAIAlgoSDK-Info.plist"; sourceTree = "<group>"; };
+		F8B29B309B6236C922113D10C6D786C1 /* ZKJAIAlgoFaceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKJAIAlgoFaceConfig.h; path = Sources/FaceCore/ZKJAIAlgoFaceConfig.h; sourceTree = "<group>"; };
+		F984D5AF37A000DEF775F25AFE735BA9 /* ZKJAIAlgoSDK-libidcardocr */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ZKJAIAlgoSDK-libidcardocr"; path = libidcardocr.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA58E840CC9D83706BBC8960117F0318 /* ZKJMSFaceLiveDetectKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKJMSFaceLiveDetectKit.m; path = Sources/MSFaceKit/ZKJMSFaceLiveDetectKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13BB8D9353D03BF74C0C639A2C6D3E94 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB7CD6DA341E5E78124B1962205B6F02 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		37D60D3CEF067B30F546B32A9E4EFF44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A2402346C8889FFE28F7EEDFCC15D750 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F6188F4B11A063FD473E3164D283E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9749F77575B03A2399A8E24E1DF2FF9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13881E5E6844D053B288C35F256C647 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA695A4466DF258ADAE6D7D4917D434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65D8AF3860B25FCE3B7DF2D5F2C0802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,76 +225,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0604F6BC7C7F9A0A8C60EB8D64EEA684 /* Frameworks */ = {
+		1C1F5748A2E1184168E860C37ACCFC67 /* FaceCore */ = {
 			isa = PBXGroup;
 			children = (
-				D63B9B13175EA8322E3F5E4406AA87E1 /* LibActionLive.framework */,
-				26FF98F1222143834D781785915EF7ED /* MSMNN.framework */,
-				934C30928CC34FA7AB74FF75B01DEA27 /* opencv2.framework */,
+				F8B29B309B6236C922113D10C6D786C1 /* ZKJAIAlgoFaceConfig.h */,
+				B7F7B0446DBD0756B925658AE6361396 /* ZKJAIAlgoFaceConfig.m */,
+				7EF56AA587F56568C46F1C6CEAC80B47 /* ZKJAIAlgoFaceManager.h */,
+				C485B75CBBEF490418ADE856B5A97777 /* ZKJAIAlgoFaceManager.m */,
+				F13BFD6265885C5F9386740E51A4FE95 /* ZKJAIFaceDetectionProtocol.h */,
+				8F9674D2333EC66B3A859612EB281F72 /* ZKJAIFaceDetectionProtocol.m */,
+				DF44C39A79937991F93448B696B797C4 /* ZKJAIFaceRecognizeResult.h */,
+				82673ED0EB21E75EAA71F61C2DFAB5D9 /* ZKJAIFaceRecognizeResult.m */,
 			);
-			name = Frameworks;
+			name = FaceCore;
 			sourceTree = "<group>";
 		};
-		0783CFAFAC8CB53E10F50D7DAD2F27E8 /* Pod */ = {
+		290F1F2FAF100F1FC6C21475F51B72DA /* OCRCore */ = {
 			isa = PBXGroup;
 			children = (
-				124A48F4D2EB9E9BCB5E89012F400F20 /* LICENSE */,
-				479274BC0634B186CEA7677A380B4E3A /* README.md */,
-				723A3D85E22FDA3C9542D7CD622BA25A /* ZKJAIAlgoSDK.podspec */,
+				C017FD8609FE790A712163627C8A2997 /* ZKJAIAlgoBackCardResult.h */,
+				E895ADA3BF87C706B14ADA6D036949F5 /* ZKJAIAlgoBackCardResult.m */,
+				01457B88794DCE7899EF0DC45105AF15 /* ZKJAIAlgoIdcardResult.h */,
+				2D331A8395A1E0FC8500F130DF9C32CE /* ZKJAIAlgoIdcardResult.m */,
+				57BCE1E803FD2ED51E9B7DFEE37D5638 /* ZKJAIAlgoOCRConfig.h */,
+				6A652138D313F826FA2C8B5C6E503792 /* ZKJAIAlgoOCRConfig.m */,
+				EBEC0590F31B19428596AEC47D822906 /* ZKJAIAlgoOCRManager.h */,
+				869FA414114C2028C457B36C72E48137 /* ZKJAIAlgoOCRManager.m */,
+				7981C240423FBF10F5575B1B9EA502CD /* ZKJAIOCRDetectionProtocol.h */,
+				B69CE2F218D89D5203FA8A16EB2975E5 /* ZKJAIOCRDetectionProtocol.m */,
+			);
+			name = OCRCore;
+			sourceTree = "<group>";
+		};
+		2DEC7B33B121432A10E0411B786BA411 /* MSOCRKit */ = {
+			isa = PBXGroup;
+			children = (
+				9DC481F5D6FD46466E2AA3F4EFC73D6E /* libidcardocr.bundle */,
+				C48BB9C2F62A040D9677CAFAD6DE1D62 /* ZKJMSOCRDetectKit.h */,
+				8AF920113620853F99E7C955E6F257C8 /* ZKJMSOCRDetectKit.m */,
+				6D6BFE6ACC18E1BDFE1A357F82E26094 /* Frameworks */,
+			);
+			name = MSOCRKit;
+			sourceTree = "<group>";
+		};
+		3E3CE676A24D93A105BB836D0A7565B4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BFE386C3CEC8D132336FB681C1FFC489 /* LICENSE */,
+				4DE89CF454731764F7C159C680D5249A /* README.md */,
+				DF94CAD0D97B3F5CFEB28B22BE721669 /* ZKJAIAlgoSDK.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		07CB20C078E35AE20E4AD07766AE09A0 /* MSLiveKit */ = {
+		44F49DA902CD06937EF94393DC951690 /* ZKJAIAlgoSDK */ = {
 			isa = PBXGroup;
 			children = (
-				579E67F9F6940C9A0ACF9F27DDB914A3 /* ZKJAIAlgoMSLiveDetectKit.h */,
-				8E0BC4EAB91077AD0D6064495AA10CF3 /* ZKJAIAlgoMSLiveDetectKit.m */,
-				26B65C2205D1DF986C25BEED0F498BC8 /* Frameworks */,
-			);
-			name = MSLiveKit;
-			sourceTree = "<group>";
-		};
-		1166BD054A607895D36EBBBF36FA3325 /* MSFaceKit */ = {
-			isa = PBXGroup;
-			children = (
-				DFBB50C3B3083CF8FF9CB45D833C059F /* LibActionLive.bundle */,
-				54931642BA00CAB2A6381A6D8636DC55 /* ZKJMSFaceLiveDetectKit.h */,
-				F1237826832BDBA0A75B9EE3791D8328 /* ZKJMSFaceLiveDetectKit.m */,
-				0604F6BC7C7F9A0A8C60EB8D64EEA684 /* Frameworks */,
-			);
-			name = MSFaceKit;
-			sourceTree = "<group>";
-		};
-		1B5A776CF4AA514AFA7B87281AAE064B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E205F579F815911CE9EF02C60B7D39A9 /* Pods-ZKJAIAlgoSDK_Example */,
-				544C961960E5399DA25145339019C94F /* Pods-ZKJAIAlgoSDK_Tests */,
-				EC46F282FC021E14640219B4F1154789 /* ZKJAIAlgoSDK */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		26B65C2205D1DF986C25BEED0F498BC8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4B6AA9B400506C4413BCDAA4958D31B7 /* ZKJAIAlgoSDK */ = {
-			isa = PBXGroup;
-			children = (
-				A475E8548C330B04B7DD24AEE31792E0 /* Core */,
-				B28A283D21C96FE4DD4E6D0CA8000E4D /* FaceCore */,
-				59DA16C91AB9BA6F0763D86941DDC875 /* LiveCore */,
-				1166BD054A607895D36EBBBF36FA3325 /* MSFaceKit */,
-				07CB20C078E35AE20E4AD07766AE09A0 /* MSLiveKit */,
-				7715F98F87BF12F201EE5ABD3A139110 /* MSOCRKit */,
-				C634BFC363B0588D1A44DCECD74D7AAF /* OCRCore */,
-				0783CFAFAC8CB53E10F50D7DAD2F27E8 /* Pod */,
-				8A1E0A60619F0DE0480392E9AAFE3B5C /* Support Files */,
+				A8E8F738B42E33B36585F3A4C776347D /* Core */,
+				1C1F5748A2E1184168E860C37ACCFC67 /* FaceCore */,
+				CF47974F9C3F63BF37A84CE694D68211 /* LiveCore */,
+				863DA0E1C8AC5B61ED3683D615D3F3CC /* MSFaceKit */,
+				E548945C4E8A47E766A904B1C738D590 /* MSLiveKit */,
+				2DEC7B33B121432A10E0411B786BA411 /* MSOCRKit */,
+				290F1F2FAF100F1FC6C21475F51B72DA /* OCRCore */,
+				3E3CE676A24D93A105BB836D0A7565B4 /* Pod */,
+				7F3E4B811A37C3A0BD13992887425D67 /* Support Files */,
 			);
 			name = ZKJAIAlgoSDK;
 			path = ../..;
@@ -255,23 +303,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		59DA16C91AB9BA6F0763D86941DDC875 /* LiveCore */ = {
+		6D6BFE6ACC18E1BDFE1A357F82E26094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				66AAEBCE87FAA4C7CB7AA3D60CDCD54C /* ZKJAIAlgoLiveConfig.h */,
-				0A5E62BD0DD3414868C43537BFFEBFE4 /* ZKJAIAlgoLiveConfig.m */,
-				2F520DFFAB6D17C2BCFB97A13B72515F /* ZKJAIAlgoLiveManager.h */,
-				3F3BCDB89B00E30AC0CAA289D04EAD78 /* ZKJAIAlgoLiveManager.m */,
-				16D91C21115B6443E3EF3315A0922279 /* ZKJAILiveDetectionProtocol.h */,
-				C939AE2B699606A42C563E5111624493 /* ZKJAILiveDetectionProtocol.m */,
-			);
-			name = LiveCore;
-			sourceTree = "<group>";
-		};
-		61533B34D89644A6CCEB8B40E4F8FE72 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6895DD0A1FD396197A37A6AC269F6126 /* libidcardocr.framework */,
+				AFBD797AD0AC32FB0739C9BC5B5E515C /* libidcardocr.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -279,7 +314,7 @@
 		73A1AB548D5E9FA4371BB88B1393B422 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4B6AA9B400506C4413BCDAA4958D31B7 /* ZKJAIAlgoSDK */,
+				44F49DA902CD06937EF94393DC951690 /* ZKJAIAlgoSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -300,55 +335,59 @@
 			path = "Target Support Files/Pods-ZKJAIAlgoSDK_Tests";
 			sourceTree = "<group>";
 		};
-		7715F98F87BF12F201EE5ABD3A139110 /* MSOCRKit */ = {
+		7F3E4B811A37C3A0BD13992887425D67 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				23DBC9EC9EA9685D595F3AB5A0E7BCEC /* libidcardocr.bundle */,
-				DC24FC209B470D30A449ADABC9DC04DD /* ZKJMSOCRDetectKit.h */,
-				684EAC07912077063BCDC1F7E25AA37F /* ZKJMSOCRDetectKit.m */,
-				61533B34D89644A6CCEB8B40E4F8FE72 /* Frameworks */,
-			);
-			name = MSOCRKit;
-			sourceTree = "<group>";
-		};
-		8A1E0A60619F0DE0480392E9AAFE3B5C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				82F072CB25EBE6C064CAA4606DB844AB /* ZKJAIAlgoSDK.modulemap */,
-				75A4CC88624E2FF25AE718CDA9C8DCD2 /* ZKJAIAlgoSDK-dummy.m */,
-				1A142333F404F0D2F64DFF6543FE293E /* ZKJAIAlgoSDK-Info.plist */,
-				6B534D346F9F4AB359A76F65772BE4DD /* ZKJAIAlgoSDK-prefix.pch */,
-				07330C3505723E1093B994DD071E3715 /* ZKJAIAlgoSDK-umbrella.h */,
-				C35FF01031B5D15AD0E1B1DBA9C7DD1E /* ZKJAIAlgoSDK.debug.xcconfig */,
-				B898AE3659FAD360F6306609D7B7BFF6 /* ZKJAIAlgoSDK.release.xcconfig */,
+				F2D21E7651A2CA18FDC956463ED7C7B1 /* ResourceBundle-LibActionLive-ZKJAIAlgoSDK-Info.plist */,
+				D3A5DD0C1CD5BE5C467B9AD776651652 /* ResourceBundle-libActionLive-ZKJAIAlgoSDK-Info.plist */,
+				7E379E191EC07B958FEF2A113A07153C /* ResourceBundle-libidcardocr-ZKJAIAlgoSDK-Info.plist */,
+				ADBCEB4E1D27039868681A471A44C7E6 /* ZKJAIAlgoSDK.modulemap */,
+				DBC3989D15D5404E8D58BAC2629D80F3 /* ZKJAIAlgoSDK-dummy.m */,
+				65EDCE49F8CC6E3B4F5655F7C8A762E8 /* ZKJAIAlgoSDK-Info.plist */,
+				95416BE7130EFECF3C69A4D1040DAD44 /* ZKJAIAlgoSDK-prefix.pch */,
+				DAECE1BFDA5B9E5003308BEB7848BE72 /* ZKJAIAlgoSDK-umbrella.h */,
+				085CFDB7DE37669AD75498153AED80CC /* ZKJAIAlgoSDK.debug.xcconfig */,
+				49C2D1BF05CE807734595A1A9C77316D /* ZKJAIAlgoSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ZKJAIAlgoSDK";
 			sourceTree = "<group>";
 		};
-		A475E8548C330B04B7DD24AEE31792E0 /* Core */ = {
+		845A6F0E8A5E555135D139C3B4C69D75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5C8DD1633FE2A1620418172DFCB00797 /* ZKJAIAlgoCoreProtocol.h */,
-				932B83D4EC9C7BB940AD6974A28EE75C /* ZKJAIAlgoManager.h */,
-				A6DEAB77F37529E6DD2F685A05D4A197 /* ZKJAIAlgoManager.m */,
+				551070D9F1B8FC87DDB5336E8C9A696C /* LibActionLive.framework */,
+				09D7C40ADB78FD211F5375389384B77B /* MSMNN.framework */,
+				5E49FEB5D15A835DD6C2A5EE95924514 /* opencv2.framework */,
 			);
-			name = Core;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B28A283D21C96FE4DD4E6D0CA8000E4D /* FaceCore */ = {
+		863DA0E1C8AC5B61ED3683D615D3F3CC /* MSFaceKit */ = {
 			isa = PBXGroup;
 			children = (
-				3654CDAD5612136FD67BD43575189F8D /* ZKJAIAlgoFaceConfig.h */,
-				F0989A89D90F01AB7C3AD9F873761907 /* ZKJAIAlgoFaceConfig.m */,
-				10BE699940E20F4F30746CC98AD605B0 /* ZKJAIAlgoFaceManager.h */,
-				643567A5EF0C215A860569C8802FF603 /* ZKJAIAlgoFaceManager.m */,
-				B4B2FCF922017568E265A2AC2D2F6249 /* ZKJAIFaceDetectionProtocol.h */,
-				B86B953B878BE2F433919B1544F138C2 /* ZKJAIFaceDetectionProtocol.m */,
-				AC505DEF940091A7ED19EB841931D4C7 /* ZKJAIFaceRecognizeResult.h */,
-				2CCEB0CD0BF086240B3F9ADFB1FDC08B /* ZKJAIFaceRecognizeResult.m */,
+				A46463C89D516D3F8B49C56AADBAE161 /* ZKJMSFaceLiveDetectKit.h */,
+				FA58E840CC9D83706BBC8960117F0318 /* ZKJMSFaceLiveDetectKit.m */,
+				845A6F0E8A5E555135D139C3B4C69D75 /* Frameworks */,
 			);
-			name = FaceCore;
+			name = MSFaceKit;
+			sourceTree = "<group>";
+		};
+		A3F0F4E9EE96C3194D95C8170D7A43F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8E8F738B42E33B36585F3A4C776347D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4FECDA6B88FD691AFBB8D4FDD64ED66B /* ZKJAIAlgoCoreProtocol.h */,
+				DD954F775D7361AE6CF28AEF87CB9427 /* ZKJAIAlgoManager.h */,
+				8124085C55DF580C7BE2C6354A21B4D5 /* ZKJAIAlgoManager.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		B36B6FBC3C119D7F82A8251218ECA905 /* Pods-ZKJAIAlgoSDK_Example */ = {
@@ -368,32 +407,28 @@
 			path = "Target Support Files/Pods-ZKJAIAlgoSDK_Example";
 			sourceTree = "<group>";
 		};
-		C634BFC363B0588D1A44DCECD74D7AAF /* OCRCore */ = {
-			isa = PBXGroup;
-			children = (
-				4B4B6DEAFCA1D1F852EEE103393A14F2 /* ZKJAIAlgoBackCardResult.h */,
-				0A042B9D5A3486B6F1688DD97831B00A /* ZKJAIAlgoBackCardResult.m */,
-				6F887040B048BB4AAAAD30330A228B72 /* ZKJAIAlgoIdcardResult.h */,
-				1815DD2AED2590112630B3D113680F68 /* ZKJAIAlgoIdcardResult.m */,
-				7CCD27A52047849EAD39BC0883B6C713 /* ZKJAIAlgoOCRConfig.h */,
-				1D170A97F2D3C954E6BB8257B68CD22B /* ZKJAIAlgoOCRConfig.m */,
-				842F19B29AC7C69C67E68F84A690FDB1 /* ZKJAIAlgoOCRManager.h */,
-				5AF450C01F7F8A24297AE7048A1A60EF /* ZKJAIAlgoOCRManager.m */,
-				44D6FF20D0AE4B2C9EB85524C3C91CD2 /* ZKJAIOCRDetectionProtocol.h */,
-				E6E3D72519A8CD7CD633ED73BC41E30A /* ZKJAIOCRDetectionProtocol.m */,
-			);
-			name = OCRCore;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				73A1AB548D5E9FA4371BB88B1393B422 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1B5A776CF4AA514AFA7B87281AAE064B /* Products */,
+				DC5A278216C17013E410B9533BEDEA22 /* Products */,
 				D9B81CF1944E0FB892BE4989BEAC423D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CF47974F9C3F63BF37A84CE694D68211 /* LiveCore */ = {
+			isa = PBXGroup;
+			children = (
+				D5AC05877FD36975F3EEEDE10A2EB167 /* ZKJAIAlgoLiveConfig.h */,
+				8BB10FB9114164DBCD7AA42D26C9214F /* ZKJAIAlgoLiveConfig.m */,
+				25EDAF5FFB4F2975055040EDF52D6131 /* ZKJAIAlgoLiveManager.h */,
+				0520434DAA27D2768589D9B84329A7E4 /* ZKJAIAlgoLiveManager.m */,
+				B11285CCB4A4AABD126C45F56A27CB2D /* ZKJAILiveDetectionProtocol.h */,
+				CBF1FAC1B94A44539C6FE69D40AE8EAD /* ZKJAILiveDetectionProtocol.m */,
+			);
+			name = LiveCore;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -413,6 +448,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		DC5A278216C17013E410B9533BEDEA22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E205F579F815911CE9EF02C60B7D39A9 /* Pods-ZKJAIAlgoSDK_Example */,
+				544C961960E5399DA25145339019C94F /* Pods-ZKJAIAlgoSDK_Tests */,
+				EC46F282FC021E14640219B4F1154789 /* ZKJAIAlgoSDK */,
+				24976BC89AA8ECDF9DBE571ECDFEE02E /* ZKJAIAlgoSDK-LibActionLive */,
+				E833154D521BDFEC14EBA0A78052B417 /* ZKJAIAlgoSDK-libActionLive */,
+				F984D5AF37A000DEF775F25AFE735BA9 /* ZKJAIAlgoSDK-libidcardocr */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E548945C4E8A47E766A904B1C738D590 /* MSLiveKit */ = {
+			isa = PBXGroup;
+			children = (
+				9CEE51E78B86B0F6510C25FFCE93D586 /* LibActionLive.bundle */,
+				7B986B73AEB37146A11B19B1BE755F68 /* ZKJAIAlgoMSLiveDetectKit.h */,
+				7469EB9515DC132E189C745FFC041988 /* ZKJAIAlgoMSLiveDetectKit.m */,
+				A3F0F4E9EE96C3194D95C8170D7A43F1 /* Frameworks */,
+			);
+			name = MSLiveKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -424,28 +483,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		711CF08C02E43996587E390CDD48686D /* Headers */ = {
+		6E4D4196E4F994305C47B2012D429168 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFBB4A526BE311D5F0455CE7375185A1 /* ZKJAIAlgoBackCardResult.h in Headers */,
-				64096206DC287C11E3FBF974F8909A96 /* ZKJAIAlgoCoreProtocol.h in Headers */,
-				3EB7B81F2463DBFABD853633C3EEC78C /* ZKJAIAlgoFaceConfig.h in Headers */,
-				6B04012019C5FBD908D42C31AB7CF596 /* ZKJAIAlgoFaceManager.h in Headers */,
-				683105964D16BA4CA5AEA735E666B886 /* ZKJAIAlgoIdcardResult.h in Headers */,
-				D3842A805A5D92E44DDF9A266A5055DF /* ZKJAIAlgoLiveConfig.h in Headers */,
-				AE758B93262565098426F8628FD80B64 /* ZKJAIAlgoLiveManager.h in Headers */,
-				3094A6005B2EFA0E4B89396561508BD3 /* ZKJAIAlgoManager.h in Headers */,
-				6FD68D66A19178DA77DBC3116F8793F8 /* ZKJAIAlgoMSLiveDetectKit.h in Headers */,
-				0A9D239303C3B053BD3ADE32B8FE61D0 /* ZKJAIAlgoOCRConfig.h in Headers */,
-				247A45B3948E57A8965C70390A38A5C5 /* ZKJAIAlgoOCRManager.h in Headers */,
-				77CD3B084435E6E77200C49A71BB5D10 /* ZKJAIAlgoSDK-umbrella.h in Headers */,
-				8E56E4AB309A47848059AA10269AE4E3 /* ZKJAIFaceDetectionProtocol.h in Headers */,
-				D4B82AB5BDC7BA06BEE786DC966FF816 /* ZKJAIFaceRecognizeResult.h in Headers */,
-				A232783E8366504E883A34BD92E73695 /* ZKJAILiveDetectionProtocol.h in Headers */,
-				75C557571B0D90FD8C6A43627D314A2A /* ZKJAIOCRDetectionProtocol.h in Headers */,
-				15F8CC53539F0860397821CB5ACE00E8 /* ZKJMSFaceLiveDetectKit.h in Headers */,
-				4A1C8DF294F2E361EC6FE7B83E71E751 /* ZKJMSOCRDetectKit.h in Headers */,
+				02C1B4166D35D253E0675E2F1F0AF0D4 /* ZKJAIAlgoBackCardResult.h in Headers */,
+				D6B8C06713E0947EA0EAB0DDB1FB1884 /* ZKJAIAlgoCoreProtocol.h in Headers */,
+				7A9B49311564EA4B0D205046F30CC289 /* ZKJAIAlgoFaceConfig.h in Headers */,
+				6DAFAD518C9E87CE51E9A1333181BA1F /* ZKJAIAlgoFaceManager.h in Headers */,
+				428B454B09EBF32D143AC705076A5F2B /* ZKJAIAlgoIdcardResult.h in Headers */,
+				A33AC2F25502755B84CFF2A306BBC3AB /* ZKJAIAlgoLiveConfig.h in Headers */,
+				7AEDAD48788B3DDF00378E2A5CCDBD54 /* ZKJAIAlgoLiveManager.h in Headers */,
+				C8A55AB82128B66ED42EC1ECC2151FE3 /* ZKJAIAlgoManager.h in Headers */,
+				BC6FDCF02EC2F9E6BD61BC8C66FF9C96 /* ZKJAIAlgoMSLiveDetectKit.h in Headers */,
+				54DF24993AEB9BBAE8463A1F94180A7B /* ZKJAIAlgoOCRConfig.h in Headers */,
+				CE347B138419D518567A0E6E3931C8B5 /* ZKJAIAlgoOCRManager.h in Headers */,
+				1124D033460873C2AF0FB9ECC4382940 /* ZKJAIAlgoSDK-umbrella.h in Headers */,
+				8D658B14D1F81D27B64ADE559B2AB523 /* ZKJAIFaceDetectionProtocol.h in Headers */,
+				DEC3A1265335EF9C560945248B0D3775 /* ZKJAIFaceRecognizeResult.h in Headers */,
+				999ADE255CA83E29722EE390056E2C52 /* ZKJAILiveDetectionProtocol.h in Headers */,
+				DD3651A524223C23B00DB839DB72C49B /* ZKJAIOCRDetectionProtocol.h in Headers */,
+				F9AA30E696D9F01A7B9EB4765BD2D8FA /* ZKJMSFaceLiveDetectKit.h in Headers */,
+				7B99409AAFED758020C627C43D3B0239 /* ZKJMSOCRDetectKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,23 +519,77 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3A78BCA96F8F1B52404A31870D89E038 /* ZKJAIAlgoSDK */ = {
+		23EE3216A947B22E39E97889AB3958DF /* ZKJAIAlgoSDK-libActionLive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFC758659FF80E4CC2990DCAEC4A5306 /* Build configuration list for PBXNativeTarget "ZKJAIAlgoSDK" */;
+			buildConfigurationList = 909A7DDD7A416C0858CFAD8ABAEAA400 /* Build configuration list for PBXNativeTarget "ZKJAIAlgoSDK-libActionLive" */;
 			buildPhases = (
-				711CF08C02E43996587E390CDD48686D /* Headers */,
-				FF16E3DC50090EE179EBEE9578B82003 /* Sources */,
-				13BB8D9353D03BF74C0C639A2C6D3E94 /* Frameworks */,
-				FB23950E71940A47E9EC10B2FA6C3040 /* Resources */,
+				C7322BA5BDB84FE9A72B8EFE3DCB7154 /* Sources */,
+				A65D8AF3860B25FCE3B7DF2D5F2C0802 /* Frameworks */,
+				149BFFCA20484F255D6234ED39EFE45C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "ZKJAIAlgoSDK-libActionLive";
+			productName = libActionLive;
+			productReference = E833154D521BDFEC14EBA0A78052B417 /* ZKJAIAlgoSDK-libActionLive */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3A78BCA96F8F1B52404A31870D89E038 /* ZKJAIAlgoSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BAF6805101723B4BD6E7A3BA53F83A /* Build configuration list for PBXNativeTarget "ZKJAIAlgoSDK" */;
+			buildPhases = (
+				6E4D4196E4F994305C47B2012D429168 /* Headers */,
+				C573D034ACCA65F1DD71EB4431E03C1E /* Sources */,
+				9749F77575B03A2399A8E24E1DF2FF9E /* Frameworks */,
+				D3FCB8941F41B7264675954548021C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD03D289DE32124ED76C165DB94BB222 /* PBXTargetDependency */,
+				736ADA975DE8921712602224214D4008 /* PBXTargetDependency */,
+				78D98F7A247DAF85C2E333A937FA0D2A /* PBXTargetDependency */,
+			);
 			name = ZKJAIAlgoSDK;
 			productName = ZKJAIAlgoSDK;
 			productReference = EC46F282FC021E14640219B4F1154789 /* ZKJAIAlgoSDK */;
 			productType = "com.apple.product-type.framework";
+		};
+		52A18809AD9346894B153F128FFCEDFE /* ZKJAIAlgoSDK-libidcardocr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92424352A103FAA81798B2C621CBEECC /* Build configuration list for PBXNativeTarget "ZKJAIAlgoSDK-libidcardocr" */;
+			buildPhases = (
+				F8F447644F26DA27E78FA285F71FA43A /* Sources */,
+				9EA695A4466DF258ADAE6D7D4917D434 /* Frameworks */,
+				6A54297CD7A469F272C5101F5672C91F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZKJAIAlgoSDK-libidcardocr";
+			productName = libidcardocr;
+			productReference = F984D5AF37A000DEF775F25AFE735BA9 /* ZKJAIAlgoSDK-libidcardocr */;
+			productType = "com.apple.product-type.bundle";
+		};
+		57315DFFE1E2313FE907BF77010A79F8 /* ZKJAIAlgoSDK-LibActionLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4311DD6E2C87922D9832953A619ECBEC /* Build configuration list for PBXNativeTarget "ZKJAIAlgoSDK-LibActionLive" */;
+			buildPhases = (
+				DF3F3C1EEBB5B1D434527A1ADFBCE53E /* Sources */,
+				53F6188F4B11A063FD473E3164D283E8 /* Frameworks */,
+				430BCB413FCAF8471873CCDAC7FD431B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZKJAIAlgoSDK-LibActionLive";
+			productName = LibActionLive;
+			productReference = 24976BC89AA8ECDF9DBE571ECDFEE02E /* ZKJAIAlgoSDK-LibActionLive */;
+			productType = "com.apple.product-type.bundle";
 		};
 		AF3A98C73E137346279B34FF3EC2966D /* Pods-ZKJAIAlgoSDK_Example */ = {
 			isa = PBXNativeTarget;
@@ -509,7 +622,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				713B58C0A5B7D834171C94BC67DA4541 /* PBXTargetDependency */,
+				C1D61077B959C2AE03B9A67A508A4B5F /* PBXTargetDependency */,
 			);
 			name = "Pods-ZKJAIAlgoSDK_Tests";
 			productName = Pods_ZKJAIAlgoSDK_Tests;
@@ -534,22 +647,49 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1B5A776CF4AA514AFA7B87281AAE064B /* Products */;
+			productRefGroup = DC5A278216C17013E410B9533BEDEA22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AF3A98C73E137346279B34FF3EC2966D /* Pods-ZKJAIAlgoSDK_Example */,
 				B65BC9A6C598C42E817D442339C5A269 /* Pods-ZKJAIAlgoSDK_Tests */,
 				3A78BCA96F8F1B52404A31870D89E038 /* ZKJAIAlgoSDK */,
+				57315DFFE1E2313FE907BF77010A79F8 /* ZKJAIAlgoSDK-LibActionLive */,
+				23EE3216A947B22E39E97889AB3958DF /* ZKJAIAlgoSDK-libActionLive */,
+				52A18809AD9346894B153F128FFCEDFE /* ZKJAIAlgoSDK-libidcardocr */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		149BFFCA20484F255D6234ED39EFE45C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0455B33F5E8E5C71B687ABE6ACD4CAC6 /* LibActionLive.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38D6C74B96F95EDEBC6F13C6887865E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430BCB413FCAF8471873CCDAC7FD431B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AF409AF4C10F81748E6168C676DCF1 /* LibActionLive.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A54297CD7A469F272C5101F5672C91F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018EE9F7E0D6CB906C872B304759AF4C /* libidcardocr.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,12 +700,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB23950E71940A47E9EC10B2FA6C3040 /* Resources */ = {
+		D3FCB8941F41B7264675954548021C58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AA7957EEFD1C3F21805A6DBBCA88F7C /* LibActionLive.bundle in Resources */,
-				CC9D00060835F0C0102AD51C9BE2BF8F /* libidcardocr.bundle in Resources */,
+				081EC8DF9F21CDFA3359300222F58CE5 /* LibActionLive.bundle in Resources */,
+				7A052A81B6166ADA3969615284B9E349 /* ZKJAIAlgoSDK-LibActionLive in Resources */,
+				78669D32EDB7392E80967C1540EF7165 /* ZKJAIAlgoSDK-libActionLive in Resources */,
+				B6472704F5C39CEBBEF7B9F009252B87 /* ZKJAIAlgoSDK-libidcardocr in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,38 +730,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF16E3DC50090EE179EBEE9578B82003 /* Sources */ = {
+		C573D034ACCA65F1DD71EB4431E03C1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16A942B7193160A9164ADB743156DD34 /* ZKJAIAlgoBackCardResult.m in Sources */,
-				9543E722CD803D8B3E73F91D6DA386E4 /* ZKJAIAlgoFaceConfig.m in Sources */,
-				4AAE97AE6CCD8DF68F17D8333C6D489E /* ZKJAIAlgoFaceManager.m in Sources */,
-				B1C64A488DD12BE3E76B55C80B62279A /* ZKJAIAlgoIdcardResult.m in Sources */,
-				4116773641131FEC74FCD9A55799942B /* ZKJAIAlgoLiveConfig.m in Sources */,
-				612975D130380BCDB79D456D8BB0A3E5 /* ZKJAIAlgoLiveManager.m in Sources */,
-				28694174CC243A8DF170FF4A3490B251 /* ZKJAIAlgoManager.m in Sources */,
-				91BF8C2A7AC332E44297859E487DE04A /* ZKJAIAlgoMSLiveDetectKit.m in Sources */,
-				D4E59285F735B38F6C51EB434C0D1799 /* ZKJAIAlgoOCRConfig.m in Sources */,
-				B9F8D1B5A967A8E935AB58A4FEA37B99 /* ZKJAIAlgoOCRManager.m in Sources */,
-				389D053CB450377EF0BBD74E94233958 /* ZKJAIAlgoSDK-dummy.m in Sources */,
-				7FBAE103D9C1887CED829F63A1AD0138 /* ZKJAIFaceDetectionProtocol.m in Sources */,
-				3A772CB81C14208A4BDECFE5F3AD595C /* ZKJAIFaceRecognizeResult.m in Sources */,
-				BE9C02AABA37B78BD3CE0FE04096E8CD /* ZKJAILiveDetectionProtocol.m in Sources */,
-				E35E26BEFE2353FCB6A683429A70820F /* ZKJAIOCRDetectionProtocol.m in Sources */,
-				C68227432BF3D63C47D53625B017A5AD /* ZKJMSFaceLiveDetectKit.m in Sources */,
-				7A191968D488312F8717C117B4585CF0 /* ZKJMSOCRDetectKit.m in Sources */,
+				7426346038B0628DA0895DA40BDF4349 /* ZKJAIAlgoBackCardResult.m in Sources */,
+				F16A4425DD5E9D463F8568C0D13BACCB /* ZKJAIAlgoFaceConfig.m in Sources */,
+				F8FC12B45764DE2246F2C2900B3260E2 /* ZKJAIAlgoFaceManager.m in Sources */,
+				899939F3B5951F9D9746AE88C6942841 /* ZKJAIAlgoIdcardResult.m in Sources */,
+				7979BC6D2969565E3CC7A2D83F6B4016 /* ZKJAIAlgoLiveConfig.m in Sources */,
+				0C42E4976932731DADCF4AE2947F80D3 /* ZKJAIAlgoLiveManager.m in Sources */,
+				E310FF404A7BC02A157690B3B3D3A1C4 /* ZKJAIAlgoManager.m in Sources */,
+				92EF23E38AC0777B2E5CAA5879DE3B48 /* ZKJAIAlgoMSLiveDetectKit.m in Sources */,
+				853F09A679FA4D5ED7A444FB9DB2708A /* ZKJAIAlgoOCRConfig.m in Sources */,
+				101B2F36440682725D5BBAF94D44FA8D /* ZKJAIAlgoOCRManager.m in Sources */,
+				F8D1B1F5166A7A3E14374A1FBF935E17 /* ZKJAIAlgoSDK-dummy.m in Sources */,
+				7F160F85D0C47A32957412D0684550A8 /* ZKJAIFaceDetectionProtocol.m in Sources */,
+				800759400C0846187D7163365F93E87E /* ZKJAIFaceRecognizeResult.m in Sources */,
+				CCA93B30BF15EA126E43C46B0BCDA05E /* ZKJAILiveDetectionProtocol.m in Sources */,
+				ABB50599D0716D9CC30204B6FB9215E4 /* ZKJAIOCRDetectionProtocol.m in Sources */,
+				0DD79CD54DF3FA6AFA2FA1716C218159 /* ZKJMSFaceLiveDetectKit.m in Sources */,
+				DAF27238B6C20F88294ECDADFBC21266 /* ZKJMSOCRDetectKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7322BA5BDB84FE9A72B8EFE3DCB7154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3F3C1EEBB5B1D434527A1ADFBCE53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F447644F26DA27E78FA285F71FA43A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		713B58C0A5B7D834171C94BC67DA4541 /* PBXTargetDependency */ = {
+		736ADA975DE8921712602224214D4008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZKJAIAlgoSDK-libActionLive";
+			target = 23EE3216A947B22E39E97889AB3958DF /* ZKJAIAlgoSDK-libActionLive */;
+			targetProxy = B2BE6EC305791CFF531CB158B8B80312 /* PBXContainerItemProxy */;
+		};
+		78D98F7A247DAF85C2E333A937FA0D2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZKJAIAlgoSDK-libidcardocr";
+			target = 52A18809AD9346894B153F128FFCEDFE /* ZKJAIAlgoSDK-libidcardocr */;
+			targetProxy = DB798B223DE960F28A8ABD06DFA55638 /* PBXContainerItemProxy */;
+		};
+		C1D61077B959C2AE03B9A67A508A4B5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZKJAIAlgoSDK_Example";
 			target = AF3A98C73E137346279B34FF3EC2966D /* Pods-ZKJAIAlgoSDK_Example */;
-			targetProxy = E2549430A1E794015FCB4C74E1783489 /* PBXContainerItemProxy */;
+			targetProxy = CB95805FF0EE7CF2B0F403554C6F711F /* PBXContainerItemProxy */;
+		};
+		FD03D289DE32124ED76C165DB94BB222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZKJAIAlgoSDK-LibActionLive";
+			target = 57315DFFE1E2313FE907BF77010A79F8 /* ZKJAIAlgoSDK-LibActionLive */;
+			targetProxy = 1134D4720095DBF54F7A586CD1848063 /* PBXContainerItemProxy */;
 		};
 		FE6390F07324DCCCF257A091ABE553C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -630,6 +811,56 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0E3F3522E98D55A34553C1F3B7F7757E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085CFDB7DE37669AD75498153AED80CC /* ZKJAIAlgoSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZKJAIAlgoSDK";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = ZKJAIAlgoSDK;
+				INFOPLIST_FILE = "Target Support Files/ZKJAIAlgoSDK/ResourceBundle-LibActionLive-ZKJAIAlgoSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LibActionLive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1FEA691DFB376F0C8DF10661041F6FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C2D1BF05CE807734595A1A9C77316D /* ZKJAIAlgoSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/ZKJAIAlgoSDK/ZKJAIAlgoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKJAIAlgoSDK/ZKJAIAlgoSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZKJAIAlgoSDK/ZKJAIAlgoSDK.modulemap";
+				PRODUCT_MODULE_NAME = ZKJAIAlgoSDK;
+				PRODUCT_NAME = ZKJAIAlgoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -696,35 +927,21 @@
 			};
 			name = Debug;
 		};
-		2ACBA911F1A60D5858E7CD5FF6A2D03B /* Release */ = {
+		3BA116137ED3070A0AB9FD00ACCEE7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B898AE3659FAD360F6306609D7B7BFF6 /* ZKJAIAlgoSDK.release.xcconfig */;
+			baseConfigurationReference = 49C2D1BF05CE807734595A1A9C77316D /* ZKJAIAlgoSDK.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZKJAIAlgoSDK";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				GCC_PREFIX_HEADER = "Target Support Files/ZKJAIAlgoSDK/ZKJAIAlgoSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZKJAIAlgoSDK/ZKJAIAlgoSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IBSC_MODULE = ZKJAIAlgoSDK;
+				INFOPLIST_FILE = "Target Support Files/ZKJAIAlgoSDK/ResourceBundle-LibActionLive-ZKJAIAlgoSDK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZKJAIAlgoSDK/ZKJAIAlgoSDK.modulemap";
-				PRODUCT_MODULE_NAME = ZKJAIAlgoSDK;
-				PRODUCT_NAME = ZKJAIAlgoSDK;
+				PRODUCT_NAME = LibActionLive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -758,6 +975,24 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EDF85E40640C891921B0777341E9CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085CFDB7DE37669AD75498153AED80CC /* ZKJAIAlgoSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZKJAIAlgoSDK";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = ZKJAIAlgoSDK;
+				INFOPLIST_FILE = "Target Support Files/ZKJAIAlgoSDK/ResourceBundle-libActionLive-ZKJAIAlgoSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = libActionLive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -795,36 +1030,41 @@
 			};
 			name = Release;
 		};
-		714D5D7E273763D553049F40B091B00B /* Debug */ = {
+		7A01C5876BC46B9377692FD41DC75465 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C35FF01031B5D15AD0E1B1DBA9C7DD1E /* ZKJAIAlgoSDK.debug.xcconfig */;
+			baseConfigurationReference = 49C2D1BF05CE807734595A1A9C77316D /* ZKJAIAlgoSDK.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZKJAIAlgoSDK";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				GCC_PREFIX_HEADER = "Target Support Files/ZKJAIAlgoSDK/ZKJAIAlgoSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZKJAIAlgoSDK/ZKJAIAlgoSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IBSC_MODULE = ZKJAIAlgoSDK;
+				INFOPLIST_FILE = "Target Support Files/ZKJAIAlgoSDK/ResourceBundle-libActionLive-ZKJAIAlgoSDK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZKJAIAlgoSDK/ZKJAIAlgoSDK.modulemap";
-				PRODUCT_MODULE_NAME = ZKJAIAlgoSDK;
-				PRODUCT_NAME = ZKJAIAlgoSDK;
+				PRODUCT_NAME = libActionLive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
+		};
+		7E0397699AE1375B6F7C55E61C569A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C2D1BF05CE807734595A1A9C77316D /* ZKJAIAlgoSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZKJAIAlgoSDK";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = ZKJAIAlgoSDK;
+				INFOPLIST_FILE = "Target Support Files/ZKJAIAlgoSDK/ResourceBundle-libidcardocr-ZKJAIAlgoSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = libidcardocr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		7E1A7F800F5F35FC43012F25C6EB4936 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -860,6 +1100,37 @@
 			};
 			name = Release;
 		};
+		9CA1830DA4219A2692EAFEF4883E2509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085CFDB7DE37669AD75498153AED80CC /* ZKJAIAlgoSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/ZKJAIAlgoSDK/ZKJAIAlgoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKJAIAlgoSDK/ZKJAIAlgoSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZKJAIAlgoSDK/ZKJAIAlgoSDK.modulemap";
+				PRODUCT_MODULE_NAME = ZKJAIAlgoSDK;
+				PRODUCT_NAME = ZKJAIAlgoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		AC1E427CC2D87361033E594AB1BFBD17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 457C63C590CD2AEF575504B601E9C474 /* Pods-ZKJAIAlgoSDK_Example.debug.xcconfig */;
@@ -890,6 +1161,24 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF3F216AB115EF014A1A35CCD7D9CFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085CFDB7DE37669AD75498153AED80CC /* ZKJAIAlgoSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZKJAIAlgoSDK";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = ZKJAIAlgoSDK;
+				INFOPLIST_FILE = "Target Support Files/ZKJAIAlgoSDK/ResourceBundle-libidcardocr-ZKJAIAlgoSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = libidcardocr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -958,11 +1247,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		25BAF6805101723B4BD6E7A3BA53F83A /* Build configuration list for PBXNativeTarget "ZKJAIAlgoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA1830DA4219A2692EAFEF4883E2509 /* Debug */,
+				1FEA691DFB376F0C8DF10661041F6FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4311DD6E2C87922D9832953A619ECBEC /* Build configuration list for PBXNativeTarget "ZKJAIAlgoSDK-LibActionLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3F3522E98D55A34553C1F3B7F7757E /* Debug */,
+				3BA116137ED3070A0AB9FD00ACCEE7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909A7DDD7A416C0858CFAD8ABAEAA400 /* Build configuration list for PBXNativeTarget "ZKJAIAlgoSDK-libActionLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDF85E40640C891921B0777341E9CDC /* Debug */,
+				7A01C5876BC46B9377692FD41DC75465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92424352A103FAA81798B2C621CBEECC /* Build configuration list for PBXNativeTarget "ZKJAIAlgoSDK-libidcardocr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3F216AB115EF014A1A35CCD7D9CFA4 /* Debug */,
+				7E0397699AE1375B6F7C55E61C569A9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -981,15 +1306,6 @@
 			buildConfigurations = (
 				3C85DF4D18512ABB483A6FAD9C51FBCC /* Debug */,
 				7E1A7F800F5F35FC43012F25C6EB4936 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DFC758659FF80E4CC2990DCAEC4A5306 /* Build configuration list for PBXNativeTarget "ZKJAIAlgoSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				714D5D7E273763D553049F40B091B00B /* Debug */,
-				2ACBA911F1A60D5858E7CD5FF6A2D03B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

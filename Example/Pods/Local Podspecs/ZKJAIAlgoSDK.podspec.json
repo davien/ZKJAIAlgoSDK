@@ -75,9 +75,11 @@
 
         ]
       },
-      "resources": [
-        "Bundle/LibActionLive.bundle"
-      ],
+      "resource_bundles": {
+        "LibActionLive": [
+          "Bundle/LibActionLive.bundle"
+        ]
+      },
       "vendored_frameworks": [
         "Framework/opencv2.framework",
         "Framework/MSMNN.framework",
@@ -96,6 +98,11 @@
       "resources": [
         "Bundle/LibActionLive.bundle"
       ],
+      "resource_bundles": {
+        "libActionLive": [
+          "Bundle/LibActionLive.bundle"
+        ]
+      },
       "vendored_frameworks": [
         "Framework/opencv2.framework",
         "Framework/MSMNN.framework",
@@ -111,9 +118,11 @@
 
         ]
       },
-      "resources": [
-        "Bundle/libidcardocr.bundle"
-      ],
+      "resource_bundles": {
+        "libidcardocr": [
+          "Bundle/libidcardocr.bundle"
+        ]
+      },
       "vendored_frameworks": [
         "Framework/opencv2.framework",
         "Framework/MSMNN.framework",
