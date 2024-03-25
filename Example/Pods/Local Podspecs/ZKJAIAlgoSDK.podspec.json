@@ -76,11 +76,9 @@
     },
     {
       "name": "MSLibActionLive",
-      "resource_bundles": {
-        "LibActionLive": [
-          "Bundle/LibActionLive.bundle"
-        ]
-      },
+      "resources": [
+        "Bundle/LibActionLive.bundle"
+      ],
       "vendored_frameworks": [
         "Framework/LibActionLive.framework"
       ],
@@ -95,11 +93,9 @@
     },
     {
       "name": "MSLibidcardocr",
-      "resource_bundles": {
-        "libidcardocr": [
-          "Bundle/libidcardocr.bundle"
-        ]
-      },
+      "resources": [
+        "Bundle/libidcardocr.bundle"
+      ],
       "vendored_frameworks": [
         "Framework/libidcardocr.framework"
       ],
