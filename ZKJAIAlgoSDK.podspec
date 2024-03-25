@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZKJAIAlgoSDK'
-  s.version          = '1.3.0'
+  s.version          = '1.4.0'
   s.summary          = 'A short description of ZKJAIAlgoSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   s.libraries  = "z", "c++"
   s.static_framework      = true
-
+  
+  # 仅支持真机的设置
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64' }
+  
 #  s.source_files = 'ZKJAIAlgoSDK/Classes/**/*'
   
   # s.resource_bundles = {
