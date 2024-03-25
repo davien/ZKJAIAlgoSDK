@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		107AB4BAB569B39B2969FE81 /* Pods_ZKJAIAlgoSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423B33BB72B7EF9016211AA8 /* Pods_ZKJAIAlgoSDK_Example.framework */; };
 		2AAA0F552BAFD34D00F48B53 /* facex_record_ios.lic in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0F542BAFD34D00F48B53 /* facex_record_ios.lic */; };
-		2AAA0F572BAFD81300F48B53 /* 123.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0F562BAFD81300F48B53 /* 123.bundle */; };
 		2AAA0F7B2BB122CE00F48B53 /* msidcard_ocr_ios.lic in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0F792BB122CE00F48B53 /* msidcard_ocr_ios.lic */; };
 		2AAA0F7C2BB122CE00F48B53 /* facex_live_ios.lic in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0F7A2BB122CE00F48B53 /* facex_live_ios.lic */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -42,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		2AAA0F542BAFD34D00F48B53 /* facex_record_ios.lic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = facex_record_ios.lic; sourceTree = "<group>"; };
-		2AAA0F562BAFD81300F48B53 /* 123.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 123.bundle; sourceTree = "<group>"; };
 		2AAA0F792BB122CE00F48B53 /* msidcard_ocr_ios.lic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = msidcard_ocr_ios.lic; sourceTree = "<group>"; };
 		2AAA0F7A2BB122CE00F48B53 /* facex_live_ios.lic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = facex_live_ios.lic; sourceTree = "<group>"; };
 		423B33BB72B7EF9016211AA8 /* Pods_ZKJAIAlgoSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKJAIAlgoSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,7 +140,6 @@
 			children = (
 				2AAA0F7A2BB122CE00F48B53 /* facex_live_ios.lic */,
 				2AAA0F792BB122CE00F48B53 /* msidcard_ocr_ios.lic */,
-				2AAA0F562BAFD81300F48B53 /* 123.bundle */,
 				2AAA0F542BAFD34D00F48B53 /* facex_record_ios.lic */,
 				6003F59C195388D20070C39A /* ZKJAIAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZKJAIAppDelegate.m */,
@@ -298,7 +295,6 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				2AAA0F7B2BB122CE00F48B53 /* msidcard_ocr_ios.lic in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				2AAA0F572BAFD81300F48B53 /* 123.bundle in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				2AAA0F552BAFD34D00F48B53 /* facex_record_ios.lic in Resources */,
 			);
