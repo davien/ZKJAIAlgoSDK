@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZKJAIAlgoSDK'
-  s.version          = '1.5.0'
+  s.version          = '1.6.0'
   s.summary          = 'A short description of ZKJAIAlgoSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -36,18 +36,29 @@ TODO: Add long description of the pod here.
 #  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64' }
   
   # 确保库只编译为真机arm64和模拟器x86_64架构
-   s.pod_target_xcconfig = {
-     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64',
-     'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'i386 x86_64 armv7 armv7s',
-     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64',
-     'VALID_ARCHS[sdk=iphoneos*]' => 'arm64'
-   }
-   s.user_target_xcconfig = {
-     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64',
-     'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'i386 x86_64 armv7 armv7s',
-     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64',
-     'VALID_ARCHS[sdk=iphoneos*]' => 'arm64'
-   }
+#   s.pod_target_xcconfig = {
+#     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64',
+#     'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'i386 x86_64 armv7 armv7s',
+#     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64',
+#     'VALID_ARCHS[sdk=iphoneos*]' => 'arm64'
+#   }
+#   s.user_target_xcconfig = {
+#     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64',
+#     'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'i386 x86_64 armv7 armv7s',
+#     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64',
+#     'VALID_ARCHS[sdk=iphoneos*]' => 'arm64'
+#   }
+
+    s.pod_target_xcconfig = {
+        # 'VALID_ARCHS' => 'arm64',
+        'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'armv7 armv7s',
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64'
+      }
+      s.user_target_xcconfig = {
+        # 'VALID_ARCHS' => 'arm64',
+        'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'armv7 armv7s',
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => "armv7 armv7s arm64"
+      }
    
 #  s.source_files = 'ZKJAIAlgoSDK/Classes/**/*'
   
