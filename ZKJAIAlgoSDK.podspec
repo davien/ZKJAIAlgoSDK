@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZKJAIAlgoSDK'
-  s.version          = '1.13.0'
+  s.version          = '1.15.0'
   s.summary          = 'A short description of ZKJAIAlgoSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '9.0'
   s.libraries  = "z", "c++"
-#  s.static_framework      = true
+  s.static_framework      = true
   
   # 仅支持真机的设置
 #  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64' }
@@ -107,14 +107,14 @@ TODO: Add long description of the pod here.
   
   
   s.subspec 'MSLibActionLive' do |ss|
-    ss.resources     = ['Bundle/LibActionLive.bundle']
+#    ss.resources     = ['Bundle/LibActionLive.bundle']
     ss.vendored_frameworks = ['Framework/LibActionLive.framework']
     ss.dependency 'ZKJAIAlgoSDK/MSMNN'
     ss.dependency 'ZKJAIAlgoSDK/opencv2'
   end
   
   s.subspec 'MSLibidcardocr' do |ss|
-    ss.resources     = ['Bundle/libidcardocr.bundle']
+#    ss.resources     = ['Bundle/libidcardocr.bundle']
     ss.vendored_frameworks = ['Framework/libidcardocr.framework']
     ss.dependency 'ZKJAIAlgoSDK/MSMNN'
     ss.dependency 'ZKJAIAlgoSDK/opencv2'

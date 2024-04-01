@@ -22,6 +22,7 @@ NSString * const ZKJAIAlgoMSFaceDetectionIdentifierKey = @"ZKJAIAlgoMSFaceDetect
 }
 
 - (ZKJAIFaceInitStatus)initWithConfig:(nonnull ZKJAIAlgoFaceConfig *)config {
+    NSLog(@"爱加密");
     // 获取当前framework的bundle
     NSBundle *frameworkBundle = [NSBundle bundleForClass:self.class];
     // 根据bundle的名字构建路径
@@ -51,6 +52,7 @@ NSString * const ZKJAIAlgoMSFaceDetectionIdentifierKey = @"ZKJAIAlgoMSFaceDetect
 }
 
 - (void)detectFaceOutOfBoundInFaceImage:(UIImage *)faceImage completion:(void (^)(ZKJAIFaceDetectStatus, NSArray<ZKJAIFaceRecognizeResult *> * _Nullable))completion {
+    NSLog(@"detectFaceOutOfBoundInFaceImage");
     ZKJAIFaceDetectStatus status;
     NSArray *array = [self detectFaceOutOfBoundInFaceImage:faceImage facexDetectStatus:&status];
     if (completion) {
