@@ -8,22 +8,11 @@
 
 #import "ZKJAIViewController.h"
 
-#import <ZKJAIAlgoSDK/ZKJAIAlgoCoreProtocol.h>
-#import <ZKJAIAlgoSDK/ZKJAIAlgoManager.h>
+#import <ZKJAIAlgoSDK/ZKJAlgoFaceKit.h>
 
+#import <ZKJAIAlgoSDK/ZKJAlgoLiveKit.h>
 
-#import <ZKJAIAlgoSDK/ZKJAIFaceRecognizeResult.h>
-#import <ZKJAIAlgoSDK/ZKJMSFaceLiveDetectKit.h>
-#import <ZKJAIAlgoSDK/ZKJAIAlgoFaceManager.h>
-
-#import <ZKJAIAlgoSDK/ZKJAIAlgoLiveConfig.h>
-#import <ZKJAIAlgoSDK/ZKJAIAlgoMSLiveDetectKit.h>
-#import <ZKJAIAlgoSDK/ZKJAIAlgoLiveManager.h>
-//
-//
-#import <ZKJAIAlgoSDK/ZKJAIAlgoOCRManager.h>
-#import <ZKJAIAlgoSDK/ZKJMSOCRDetectKit.h>
-#import <ZKJAIAlgoSDK/ZKJAIAlgoOCRConfig.h>
+#import <ZKJAIAlgoSDK/ZKJAlgoOCRKit.h>
 
 
 
@@ -42,32 +31,32 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
-    [[ZKJAIAlgoManager sharedManager] algorithmForType:@"123"];
+  
 	// Do any additional setup after loading the view, typically from a nib.
-    [ZKJAIAlgoFaceManager switchFaceDetectionAlgorithmWithIdentifier:ZKJAIAlgoMSFaceDetectionIdentifierKey];
-    ZKJAIAlgoFaceConfig *config = [[ZKJAIAlgoFaceConfig alloc] init];
-    [[ZKJAIAlgoFaceManager faceDetectionAlgorithm] initWithConfig:config];
+    [ZKJAlgoFaceManager switchFaceDetectionAlgorithmWithIdentifier:ZKJAlgoMSFaceDetectIdentifierKey];
+    ZKJAlgoFaceConfig *config = [[ZKJAlgoFaceConfig alloc] init];
+    [[ZKJAlgoFaceManager faceDetectionAlgorithm] initWithConfig:config];
 
     
-    [ZKJAIAlgoLiveManager switchLiveDetectionAlgorithmWithIdentifier:ZKJAIAlgoMSLiveDetectionIdentifierKey];
-    ZKJAIAlgoLiveConfig *liveConfig = [[ZKJAIAlgoLiveConfig alloc] init];
-    [[ZKJAIAlgoLiveManager liveDetectionAlgorithm] initWithConfig:liveConfig];
+    [ZKJAlgoLiveManager switchLiveDetectionAlgorithmWithIdentifier:ZKJAlgoMSLiveDetectIdentifierKey];
+    ZKJAlgoLiveConfig *liveConfig = [[ZKJAlgoLiveConfig alloc] init];
+    [[ZKJAlgoLiveManager liveDetectionAlgorithm] initWithConfig:liveConfig];
 //    
-    [ZKJAIAlgoOCRManager switchOCRDetectionAlgorithmWithIdentifier:ZKJAIAlgoMSOCRDetectionIdentifierKey];
-    ZKJAIAlgoOCRConfig *ocrConfig = [[ZKJAIAlgoOCRConfig alloc] init];
-    [[ZKJAIAlgoOCRManager ocrDetectionAlgorithm] initIdCardWithConfig:ocrConfig];
+    [ZKJAlgoOCRManager switchOCRDetectionAlgorithmWithIdentifier:ZKJAlgoMSOCRDetectIdentifierKey];
+    ZKJAlgoOCRConfig *ocrConfig = [[ZKJAlgoOCRConfig alloc] init];
+    [[ZKJAlgoOCRManager ocrDetectionAlgorithm] initIdCardWithConfig:ocrConfig];
 
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
  
 //    
-    [[ZKJAIAlgoFaceManager faceDetectionAlgorithm] detectFaceOutOfBoundInFaceImage:[UIImage imageNamed:@"123"] completion:^(ZKJAIFaceDetectStatus status, NSArray<ZKJAIFaceRecognizeResult *> * _Nullable results) {
+    [[ZKJAlgoFaceManager faceDetectionAlgorithm] detectFaceOutOfBoundInFaceImage:[UIImage imageNamed:@"123"] completion:^(ZKJAIFaceDetectStatus status, NSArray<ZKJAlgoFaceRecognizeResult *> * _Nullable results) {
         NSLog(@"%ld---%@",status, results);
 
     }];
     
-    [[ZKJAIAlgoFaceManager faceDetectionAlgorithm] compareFace:[UIImage imageNamed:@"123"] face2:[UIImage imageNamed:@"123"] completion:^(ZKJAIFaceCompareStatus compareStatus, float similarityScore) {
+    [[ZKJAlgoFaceManager faceDetectionAlgorithm] compareFace:[UIImage imageNamed:@"123"] face2:[UIImage imageNamed:@"123"] completion:^(ZKJAIFaceCompareStatus compareStatus, float similarityScore) {
         NSLog(@"%ld---%f",compareStatus, similarityScore);
     }];
  

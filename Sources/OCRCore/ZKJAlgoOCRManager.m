@@ -7,7 +7,7 @@
 
 #import "ZKJAIAlgoOCRManager.h"
 
-#import "ZKJAIAlgoManager.h"
+#import "ZKJAlgoManager.h"
 
 @implementation ZKJAIAlgoOCRManager
 
@@ -17,19 +17,19 @@
 ///   - identifier: 算法实例指定的唯一标识符
 + (void)registerOCRAlgorithm:(Class<ZKJAIOCRDetectionProtocol>)algorithm
                   identifier:(NSString *)identifier {
-    [[ZKJAIAlgoManager sharedManager] registerAlgorithmClass:algorithm identifier:identifier type:ZKJAIAlgoOCRTypeKey];
+    [[ZKJAlgoManager sharedManager] registerAlgorithmClass:algorithm identifier:identifier type:ZKJAIAlgoOCRTypeKey];
 }
 
 /// 切换OCR算法
 /// - Parameter identifier: 算法的标识符
 + (void)switchOCRDetectionAlgorithmWithIdentifier:(NSString *)identifier {
-    [[ZKJAIAlgoManager sharedManager] switchAlgorithmWithIdentifier:identifier type:ZKJAIAlgoOCRTypeKey];
+    [[ZKJAlgoManager sharedManager] switchAlgorithmWithIdentifier:identifier type:ZKJAIAlgoOCRTypeKey];
 
 }
 
 /// 获取OCR算法
 + (id<ZKJAIOCRDetectionProtocol>)ocrDetectionAlgorithm {
-    id <ZKJAIAlgoCoreProtocol> algoCoreObject = [[ZKJAIAlgoManager sharedManager] algorithmForType:ZKJAIAlgoOCRTypeKey];
+    id <ZKJAlgoCoreProtocol> algoCoreObject = [[ZKJAlgoManager sharedManager] algorithmForType:ZKJAIAlgoOCRTypeKey];
     id<ZKJAIOCRDetectionProtocol> faceDetectionObject = (id<ZKJAIOCRDetectionProtocol>)algoCoreObject;
     return faceDetectionObject;
 }

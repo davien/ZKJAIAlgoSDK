@@ -6,13 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ZKJAILiveDetectionProtocol.h"
+#import "ZKJAlgoLiveDetectionProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 extern NSString * const ZKJAIAlgoMSLiveDetectionIdentifierKey;
 
-@interface ZKJAIAlgoMSLiveDetectKit : NSObject<ZKJAILiveDetectionProtocol>
+@interface ZKJAIAlgoMSLiveDetectKit : NSObject<ZKJAlgoLiveDetectionProtocol>
 
 @end
 

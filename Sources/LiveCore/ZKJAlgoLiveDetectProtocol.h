@@ -1,5 +1,5 @@
 //
-//  ZKJAILiveDetectionProtocol.h
+//  ZKJAlgoLiveDetectProtocol.h
 //  ZKJAIAlgoSDK
 //
 //  Created by Davien on 2024/3/22.
@@ -8,9 +8,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "ZKJAIAlgoCoreProtocol.h"
+#import "ZKJAlgoCoreProtocol.h"
 
-#import "ZKJAIAlgoLiveConfig.h"
+#import "ZKJAlgoLiveConfig.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -20,13 +20,13 @@ NS_ASSUME_NONNULL_BEGIN
 extern NSString * const ZKJAIAlgoLiveDetectionTypeKey;
 
 /// 人脸检测算法协议
-@protocol ZKJAILiveDetectionProtocol <ZKJAIAlgoCoreProtocol>
+@protocol ZKJAlgoLiveDetectProtocol <ZKJAlgoCoreProtocol>
 
 @required
 
 /// 活体检测初始化
 /// - Parameter config: 活体算法配置
-- (BOOL)initWithConfig:(ZKJAIAlgoLiveConfig *)config;
+- (BOOL)initWithConfig:(ZKJAlgoLiveConfig *)config;
 
 /// 启动检测线程
 - (int)startProcess;

@@ -1,35 +1,35 @@
 //
-//  ZKJAIAlgoManager.m
+//  ZKJAlgoManager.m
 //  ZKJAIAlgoSDK
 //
 //  Created by Davien on 2024/3/23.
 //
 
-#import "ZKJAIAlgoManager.h"
+#import "ZKJAlgoManager.h"
 
-#import "ZKJAIAlgoCoreProtocol.h"
+#import "ZKJAlgoCoreProtocol.h"
 
-@interface ZKJAIAlgoManager ()
+@interface ZKJAlgoManager ()
 
 // 存储所有注册的算法实例，外层字典的键为算法类型，内层字典的键为算法标识符
 @property (nonatomic, strong) NSMutableDictionary<NSString *, NSMutableDictionary<NSString *, Class> *> *algorithmClasses;
 
 // 存储每种类型当前活跃的算法标识符
-@property (nonatomic, strong) NSMutableDictionary<NSString *, id<ZKJAIAlgoCoreProtocol>> *activeAlgorithmIdentifiers;
+@property (nonatomic, strong) NSMutableDictionary<NSString *, id<ZKJAlgoCoreProtocol>> *activeAlgorithmIdentifiers;
 
 @end
 
-@implementation ZKJAIAlgoManager
+@implementation ZKJAlgoManager
 {
     // 存储所有注册的算法实例，外层字典的键为算法类型，内层字典的键为算法标识符
     NSMutableDictionary<NSString *, NSMutableDictionary<NSString *, Class> *> *_registeredAlgorithms;
     // 存储每种类型当前活跃的算法标识符
-    NSMutableDictionary<NSString *, id<ZKJAIAlgoCoreProtocol>> *_activeAlgorithms;
+    NSMutableDictionary<NSString *, id<ZKJAlgoCoreProtocol>> *_activeAlgorithms;
     NSMutableDictionary<NSString *, NSString *> *_activeIdentifiers;
 }
 
 + (instancetype)sharedManager {
-    static ZKJAIAlgoManager *sharedInstance = nil;
+    static ZKJAlgoManager *sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedInstance = [[self alloc] init];
@@ -47,7 +47,7 @@
     return self;
 }
 
-- (void)registerAlgorithmClass:(Class<ZKJAIAlgoCoreProtocol>)algorithmClass identifier:(NSString *)identifier type:(NSString *)type {
+- (void)registerAlgorithmClass:(Class<ZKJAlgoCoreProtocol>)algorithmClass identifier:(NSString *)identifier type:(NSString *)type {
     if (!_registeredAlgorithms[type]) {
             _registeredAlgorithms[type] = [NSMutableDictionary dictionary];
         }
@@ -55,7 +55,7 @@
     NSLog(@"registerAlgorithmClass:%@",_registeredAlgorithms);
 }
 
-- (id<ZKJAIAlgoCoreProtocol>)algorithmForType:(NSString *)type {
+- (id<ZKJAlgoCoreProtocol>)algorithmForType:(NSString *)type {
     NSString *activeIdentifier = _activeIdentifiers[type];
     if (!activeIdentifier) {
         NSLog(@"No active algorithm identifier for type %@", type);
@@ -63,7 +63,7 @@
     }
     NSLog(@"algorithmForType Identifier %@ type %@", activeIdentifier,type);
 
-    id<ZKJAIAlgoCoreProtocol> activeAlgorithm = _activeAlgorithms[activeIdentifier];
+    id<ZKJAlgoCoreProtocol> activeAlgorithm = _activeAlgorithms[activeIdentifier];
     NSLog(@"algorithmForType activeAlgorithm %@ --%@", activeAlgorithm,_activeAlgorithms);
 
     if (!activeAlgorithm) {
@@ -87,7 +87,7 @@
     NSLog(@"switchAlgorithmWithIdentifier currentActiveIdentifier %@ ", currentActiveIdentifier);
 
     if (currentActiveIdentifier) {
-        id<ZKJAIAlgoCoreProtocol> currentActiveAlgorithm = _activeAlgorithms[currentActiveIdentifier];
+        id<ZKJAlgoCoreProtocol> currentActiveAlgorithm = _activeAlgorithms[currentActiveIdentifier];
         [currentActiveAlgorithm unInit];
         [_activeAlgorithms removeObjectForKey:currentActiveIdentifier];
         NSLog(@"switchAlgorithmWithIdentifier _activeAlgorithms %@ ", _activeAlgorithms);

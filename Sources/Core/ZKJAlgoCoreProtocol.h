@@ -12,7 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /// 算法核心协议
-@protocol ZKJAIAlgoCoreProtocol <NSObject>
+@protocol ZKJAlgoCoreProtocol <NSObject>
 
 @required
 

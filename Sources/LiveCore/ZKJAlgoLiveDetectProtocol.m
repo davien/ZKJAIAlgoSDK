@@ -1,10 +1,10 @@
 //
-//  ZKJAIFaceDetectionProtocol.m
+//  ZKJAlgoFaceDetectProtocol.m
 //  ZKJAIAlgoSDK
 //
 //  Created by Davien on 2024/3/22.
 //
 
-#import "ZKJAILiveDetectionProtocol.h"
+#import "ZKJAlgoLiveDetectionProtocol.h"
 
 NSString * const ZKJAIAlgoLiveDetectionTypeKey = @"ZKJAIAlgoLiveDetectionTypeKey";

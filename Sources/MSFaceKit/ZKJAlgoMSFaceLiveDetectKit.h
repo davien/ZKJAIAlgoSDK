@@ -6,13 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ZKJAIFaceDetectionProtocol.h"
+#import "ZKJAlgoFaceDetectionProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 extern NSString * const ZKJAIAlgoMSFaceDetectionIdentifierKey;
 
-@interface ZKJMSFaceLiveDetectKit : NSObject<ZKJAIFaceDetectionProtocol>
+@interface ZKJMSFaceLiveDetectKit : NSObject<ZKJAlgoFaceDetectionProtocol>
 
 @end
 

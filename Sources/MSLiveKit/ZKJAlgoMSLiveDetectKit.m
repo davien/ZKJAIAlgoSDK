@@ -9,7 +9,7 @@
 
 #import <LibActionLive/Actionlive.h>
 
-#import "ZKJAIAlgoLiveManager.h"
+#import "ZKJAlgoLiveManager.h"
 
 
 NSString * const ZKJAIAlgoMSLiveDetectionIdentifierKey = @"ZKJAIAlgoMSLiveDetectionIdentifierKey";
@@ -18,10 +18,10 @@ NSString * const ZKJAIAlgoMSLiveDetectionIdentifierKey = @"ZKJAIAlgoMSLiveDetect
 @implementation ZKJAIAlgoMSLiveDetectKit
 
 + (void)load {
-    [ZKJAIAlgoLiveManager registerLiveDetectionAlgorithm:[ZKJAIAlgoMSLiveDetectKit class] identifier:ZKJAIAlgoMSLiveDetectionIdentifierKey];
+    [ZKJAlgoLiveManager registerLiveDetectionAlgorithm:[ZKJAIAlgoMSLiveDetectKit class] identifier:ZKJAIAlgoMSLiveDetectionIdentifierKey];
 }
 
-- (BOOL)initWithConfig:(ZKJAIAlgoLiveConfig *)config {
+- (BOOL)initWithConfig:(ZKJAlgoLiveConfig *)config {
     LiveConfig *liveConfig = [[LiveConfig alloc] init];
     //    config.isScreenDet = self.configModel.screenDet;//TODO: 前置不做防翻拍
     liveConfig.isScreenDet = NO;

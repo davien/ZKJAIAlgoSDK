@@ -1,5 +1,5 @@
 //
-//  ZKJAIOCRDetectionProtocol.h
+//  ZKJAlgoOCRDetectionProtocol.h
 //  ZKJAIAlgoSDK
 //
 //  Created by Davien on 2024/3/22.
@@ -7,11 +7,11 @@
 
 #import <Foundation/Foundation.h>
 
-#import "ZKJAIAlgoCoreProtocol.h"
+#import "ZKJAlgoCoreProtocol.h"
 
-#import "ZKJAIAlgoOCRConfig.h"
-#import "ZKJAIAlgoIdcardResult.h"
-#import "ZKJAIAlgoBackCardResult.h"
+#import "ZKJAlgoOCRConfig.h"
+#import "ZKJAlgoIdcardResult.h"
+#import "ZKJAlgoBackCardResult.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -25,11 +25,11 @@ typedef NS_ENUM(NSUInteger, ZKJAIIdCardType) {
 extern NSString * const ZKJAIAlgoOCRTypeKey;
 
 /// OCR算法协议
-@protocol ZKJAIOCRDetectionProtocol <ZKJAIAlgoCoreProtocol>
+@protocol ZKJAlgoOCRDetectionProtocol <ZKJAlgoCoreProtocol>
 
 /// 身份证初始化 (YES 成功，NO 失败)
 /// - Parameter config: 人脸算法配置
-- (BOOL)initIdCardWithConfig:(ZKJAIAlgoOCRConfig *)config;
+- (BOOL)initIdCardWithConfig:(ZKJAlgoOCRConfig *)config;
 
 
 /// 开始身份证的识别
@@ -43,7 +43,7 @@ extern NSString * const ZKJAIAlgoOCRTypeKey;
 ///   - completion: 完成的回调
 - (void)idCardDetectionInputData:(UIImage *)image
                         cardType:(ZKJAIIdCardType)cardType
-                      completion:(void (^)(int code, ZKJAIAlgoIdcardResult * _Nullable idcardResult, UIImage * _Nullable bestImage))completion;
+                      completion:(void (^)(int code, ZKJAlgoIdcardResult * _Nullable idcardResult, UIImage * _Nullable bestImage))completion;
 
 /// 停止身份证识别
 - (void)stopIdCardDetection;
@@ -51,7 +51,7 @@ extern NSString * const ZKJAIAlgoOCRTypeKey;
 
 /// 银行卡初始化 (YES 成功，NO 失败)
 /// - Parameter config: 人脸算法配置
-- (BOOL)initBackCardWithConfig:(ZKJAIAlgoOCRConfig *)config;
+- (BOOL)initBackCardWithConfig:(ZKJAlgoOCRConfig *)config;
 
 
 /// 开始银行卡识别
@@ -64,7 +64,7 @@ extern NSString * const ZKJAIAlgoOCRTypeKey;
 ///   - completion: 完成的回调
 - (void)bankCardDetectionInputData:(UIImage *)image
                       overlayFrame:(CGRect)overlayFrame
-                        completion:(void (^)(ZKJAIAlgoBackCardResult * _Nullable backCardResult,int code))completion;
+                        completion:(void (^)(ZKJAlgoBackCardResult * _Nullable backCardResult,int code))completion;
 
 /// 停止银行卡识别
 - (void)stopBankCardDetection;

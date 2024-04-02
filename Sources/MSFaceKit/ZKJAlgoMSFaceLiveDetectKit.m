@@ -9,8 +9,8 @@
 
 #import <LibActionLive/Facexdet.h>
 
-#import "ZKJAIAlgoFaceManager.h"
-#import "ZKJAIFaceRecognizeResult.h"
+#import "ZKJAlgoFaceManager.h"
+#import "ZKJAlgoFaceRecognizeResult.h"
 
 NSString * const ZKJAIAlgoMSFaceDetectionIdentifierKey = @"ZKJAIAlgoMSFaceDetectionIdentifierKey";
 
@@ -20,10 +20,10 @@ NSString * const ZKJAIAlgoMSFaceDetectionIdentifierKey = @"ZKJAIAlgoMSFaceDetect
 + (void)load {
     NSLog(@"ZKJMSFaceLiveDetectKit load");
 
-    [ZKJAIAlgoFaceManager registerFaceDetectionAlgorithm:[ZKJMSFaceLiveDetectKit class] identifier:ZKJAIAlgoMSFaceDetectionIdentifierKey];
+    [ZKJAlgoFaceManager registerFaceDetectionAlgorithm:[ZKJMSFaceLiveDetectKit class] identifier:ZKJAIAlgoMSFaceDetectionIdentifierKey];
 }
 
-- (ZKJAIFaceInitStatus)initWithConfig:(nonnull ZKJAIAlgoFaceConfig *)config {
+- (ZKJAIFaceInitStatus)initWithConfig:(nonnull ZKJAlgoFaceConfig *)config {
     NSLog(@"爱加密");
     // 获取当前framework的bundle
     NSBundle *frameworkBundle = [NSBundle bundleForClass:self.class];
@@ -53,7 +53,7 @@ NSString * const ZKJAIAlgoMSFaceDetectionIdentifierKey = @"ZKJAIAlgoMSFaceDetect
     }
 }
 
-- (void)detectFaceOutOfBoundInFaceImage:(UIImage *)faceImage completion:(void (^)(ZKJAIFaceDetectStatus, NSArray<ZKJAIFaceRecognizeResult *> * _Nullable))completion {
+- (void)detectFaceOutOfBoundInFaceImage:(UIImage *)faceImage completion:(void (^)(ZKJAIFaceDetectStatus, NSArray<ZKJAlgoFaceRecognizeResult *> * _Nullable))completion {
     NSLog(@"detectFaceOutOfBoundInFaceImage");
     ZKJAIFaceDetectStatus status;
     NSArray *array = [self detectFaceOutOfBoundInFaceImage:faceImage facexDetectStatus:&status];
@@ -173,10 +173,10 @@ NSString * const ZKJAIAlgoMSFaceDetectionIdentifierKey = @"ZKJAIAlgoMSFaceDetect
 
 }
 
-- (NSArray <ZKJAIFaceRecognizeResult *>*)faceRecognizeResultFromResults:(NSArray <FaceRecognizeResult *>*)results {
+- (NSArray <ZKJAlgoFaceRecognizeResult *>*)faceRecognizeResultFromResults:(NSArray <FaceRecognizeResult *>*)results {
     NSMutableArray *array = [NSMutableArray array];
     for (FaceRecognizeResult *result in results) {
-        ZKJAIFaceRecognizeResult *faceResult = [[ZKJAIFaceRecognizeResult alloc] init];
+        ZKJAlgoFaceRecognizeResult *faceResult = [[ZKJAlgoFaceRecognizeResult alloc] init];
         faceResult.x = result.x;
         faceResult.y = result.y;
         faceResult.width = result.width;

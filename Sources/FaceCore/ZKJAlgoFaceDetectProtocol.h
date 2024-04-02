@@ -8,10 +8,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "ZKJAIAlgoCoreProtocol.h"
+#import "ZKJAlgoCoreProtocol.h"
 
-#import "ZKJAIAlgoFaceConfig.h"
-#import "ZKJAIFaceRecognizeResult.h"
+#import "ZKJAlgoFaceConfig.h"
+#import "ZKJAlgoFaceRecognizeResult.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -41,20 +41,20 @@ typedef NS_ENUM(NSInteger, ZKJAIFaceCompareStatus) {
 extern NSString * const ZKJAIAlgoFaceDetectionTypeKey;
 
 /// 人脸检测算法协议
-@protocol ZKJAIFaceDetectionProtocol <ZKJAIAlgoCoreProtocol>
+@protocol ZKJAlgoFaceDetectProtocol <ZKJAlgoCoreProtocol>
 
 @required
 
 /// 人脸检测初始化
 /// - Parameter config: 人脸算法配置
-- (ZKJAIFaceInitStatus)initWithConfig:(ZKJAIAlgoFaceConfig *)config;
+- (ZKJAIFaceInitStatus)initWithConfig:(ZKJAlgoFaceConfig *)config;
 
 /// 人脸出框检测
 /// - Parameters:
 ///   - faceImage: 人脸图片
 ///   - completion: 完成的回调
 - (void)detectFaceOutOfBoundInFaceImage:(UIImage *)faceImage
-                             completion:(void (^)(ZKJAIFaceDetectStatus status,NSArray<ZKJAIFaceRecognizeResult *> * _Nullable results))completion;
+                             completion:(void (^)(ZKJAIFaceDetectStatus status,NSArray<ZKJAlgoFaceRecognizeResult *> * _Nullable results))completion;
 
 
 /// 人脸比对

@@ -34,7 +34,7 @@
     {
       "name": "Core",
       "source_files": "Sources/Core/**/*.{h,m,swift}",
-      "public_header_files": "Sources/Core/*.h"
+      "public_header_files": "Sources/Core/ZKJAlgoCoreProtocol.h"
     },
     {
       "name": "FaceCore",
@@ -75,9 +75,9 @@
       "vendored_frameworks": "Framework/opencv2.framework"
     },
     {
-      "name": "MSLibActionLive",
+      "name": "LibFaceLive",
       "resources": [
-        "Bundle/LibActionLive.bundle"
+        "Bundle/ZKJAlgoFaceLive.bundle"
       ],
       "vendored_frameworks": [
         "Framework/LibActionLive.framework"
@@ -92,9 +92,9 @@
       }
     },
     {
-      "name": "MSLibidcardocr",
+      "name": "LibOCR",
       "resources": [
-        "Bundle/libidcardocr.bundle"
+        "Bundle/ZKJAlgoOCR.bundle"
       ],
       "vendored_frameworks": [
         "Framework/libidcardocr.framework"
@@ -109,40 +109,49 @@
       }
     },
     {
-      "name": "MSFaceKit",
-      "source_files": "Sources/MSFaceKit/**/*.{h,m,swift}",
-      "public_header_files": "Sources/MSFaceKit/*.h",
+      "name": "FaceKit",
+      "source_files": "Sources/FaceKit/**/*.{h,m,swift}",
+      "public_header_files": [
+        "Sources/FaceKit/ZKJAlgoFaceKit.h",
+        "Sources/FaceKit/ZKJAlgoFaceKitConstants.h"
+      ],
       "dependencies": {
         "ZKJAIAlgoSDK/FaceCore": [
 
         ],
-        "ZKJAIAlgoSDK/MSLibActionLive": [
+        "ZKJAIAlgoSDK/LibFaceLive": [
 
         ]
       }
     },
     {
-      "name": "MSLiveKit",
-      "source_files": "Sources/MSLiveKit/**/*.{h,m,swift}",
-      "public_header_files": "Sources/MSLiveKit/*.h",
+      "name": "LiveKit",
+      "source_files": "Sources/LiveKit/**/*.{h,m,swift}",
+      "public_header_files": [
+        "Sources/LiveKit/ZKJAlgoLiveKit.h",
+        "Sources/LiveKit/ZKJAlgoLiveKitConstants.h"
+      ],
       "dependencies": {
         "ZKJAIAlgoSDK/LiveCore": [
 
         ],
-        "ZKJAIAlgoSDK/MSLibActionLive": [
+        "ZKJAIAlgoSDK/LibFaceLive": [
 
         ]
       }
     },
     {
-      "name": "MSOCRKit",
-      "source_files": "Sources/MSOCRKit/**/*.{h,m,swift}",
-      "public_header_files": "Sources/MSOCRKit/*.h",
+      "name": "OCRKit",
+      "source_files": "Sources/OCRKit/**/*.{h,m,swift}",
+      "public_header_files": [
+        "Sources/OCRKit/ZKJAlgoOCRKit.h",
+        "Sources/OCRKit/ZKJAlgoOCRKitConstants.h"
+      ],
       "dependencies": {
         "ZKJAIAlgoSDK/OCRCore": [
 
         ],
-        "ZKJAIAlgoSDK/MSLibidcardocr": [
+        "ZKJAIAlgoSDK/LibOCR": [
 
         ]
       }
