@@ -18,6 +18,8 @@ NSString * const ZKJAIAlgoMSFaceDetectionIdentifierKey = @"ZKJAIAlgoMSFaceDetect
 @implementation ZKJMSFaceLiveDetectKit
 
 + (void)load {
+    NSLog(@"ZKJMSFaceLiveDetectKit load");
+
     [ZKJAIAlgoFaceManager registerFaceDetectionAlgorithm:[ZKJMSFaceLiveDetectKit class] identifier:ZKJAIAlgoMSFaceDetectionIdentifierKey];
 }
 

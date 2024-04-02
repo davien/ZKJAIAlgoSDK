@@ -1,6 +1,6 @@
 {
   "name": "ZKJAIAlgoSDK",
-  "version": "1.14.0",
+  "version": "1.16.0",
   "summary": "A short description of ZKJAIAlgoSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/davien/ZKJAIAlgoSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/davien/ZKJAIAlgoSDK.git",
-    "tag": "1.14.0"
+    "tag": "1.16.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -76,6 +76,9 @@
     },
     {
       "name": "MSLibActionLive",
+      "resources": [
+        "Bundle/LibActionLive.bundle"
+      ],
       "vendored_frameworks": [
         "Framework/LibActionLive.framework"
       ],
@@ -90,6 +93,9 @@
     },
     {
       "name": "MSLibidcardocr",
+      "resources": [
+        "Bundle/libidcardocr.bundle"
+      ],
       "vendored_frameworks": [
         "Framework/libidcardocr.framework"
       ],

@@ -22,12 +22,16 @@
 /// 切换人脸检测算法
 /// - Parameter identifier: 算法的标识符
 + (void)switchFaceDetectionAlgorithmWithIdentifier:(NSString *)identifier {
+    NSLog(@"switchFaceDetectionAlgorithmWithIdentifier");
     [[ZKJAIAlgoManager sharedManager] switchAlgorithmWithIdentifier:identifier type:ZKJAIAlgoFaceDetectionTypeKey];
 }
 
 /// 获取人脸检测算法
 + (id <ZKJAIFaceDetectionProtocol>)faceDetectionAlgorithm {
     id <ZKJAIAlgoCoreProtocol> algoCoreObject = [[ZKJAIAlgoManager sharedManager] algorithmForType:ZKJAIAlgoFaceDetectionTypeKey];
+    NSLog(@"faceDetectionAlgorithm %@",algoCoreObject);
+
+    
     id<ZKJAIFaceDetectionProtocol> faceDetectionObject = (id<ZKJAIFaceDetectionProtocol>)algoCoreObject;
     return faceDetectionObject;
 }

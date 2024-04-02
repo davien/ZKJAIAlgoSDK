@@ -51,7 +51,8 @@
     if (!_registeredAlgorithms[type]) {
             _registeredAlgorithms[type] = [NSMutableDictionary dictionary];
         }
-        _registeredAlgorithms[type][identifier] = algorithmClass;
+    _registeredAlgorithms[type][identifier] = algorithmClass;
+    NSLog(@"registerAlgorithmClass:%@",_registeredAlgorithms);
 }
 
 - (id<ZKJAIAlgoCoreProtocol>)algorithmForType:(NSString *)type {
@@ -60,9 +61,16 @@
         NSLog(@"No active algorithm identifier for type %@", type);
         return nil;
     }
+    NSLog(@"algorithmForType Identifier %@ type %@", activeIdentifier,type);
+
     id<ZKJAIAlgoCoreProtocol> activeAlgorithm = _activeAlgorithms[activeIdentifier];
+    NSLog(@"algorithmForType activeAlgorithm %@ --%@", activeAlgorithm,_activeAlgorithms);
+
     if (!activeAlgorithm) {
         Class algorithmClass = _registeredAlgorithms[type][activeIdentifier];
+        NSLog(@"algorithmForType algorithmClass %@ ", algorithmClass);
+
+
         if (algorithmClass) {
             activeAlgorithm = [[algorithmClass alloc] init];
             _activeAlgorithms[activeIdentifier] = activeAlgorithm;
@@ -76,16 +84,20 @@
     if ([currentActiveIdentifier isEqualToString:identifier]) {
         return;
     }
-    
+    NSLog(@"switchAlgorithmWithIdentifier currentActiveIdentifier %@ ", currentActiveIdentifier);
+
     if (currentActiveIdentifier) {
         id<ZKJAIAlgoCoreProtocol> currentActiveAlgorithm = _activeAlgorithms[currentActiveIdentifier];
         [currentActiveAlgorithm unInit];
         [_activeAlgorithms removeObjectForKey:currentActiveIdentifier];
+        NSLog(@"switchAlgorithmWithIdentifier _activeAlgorithms %@ ", _activeAlgorithms);
+
     }
     
     _activeIdentifiers[type] = identifier;
     
-    
+    NSLog(@"switchAlgorithmWithIdentifier _activeAlgorithms %@ _activeIdentifiers:%@", _activeAlgorithms,_activeIdentifiers);
+
 }
 
 @end
